@@ -1,0 +1,544 @@
+/* 
+===============
+   container
+=============== 
+*/
+.kal-res1-jh-res-wrapper{
+      width:100%;
+}
+
+/* 
+===============
+   reser-gnb
+=============== 
+*/
+
+.kal-res2-jh-reser-gnb{
+	width:100%;
+	height:80px;
+	border-bottom:4px solid #0180a3;
+}
+.kal-res2-jh-reser-gnb-logoBlock{
+	width:250px;
+	height:80px;
+	text-align:center;
+}
+.kal-res2-jh-reser-gnb-logoBlock>img{
+	width:205px;
+	margin-top:25px;
+}
+.kal-res2-jh-reser-gnb-calendarIconBlock{
+	width:30px;
+	height:80px;
+	position:relative;
+	bottom:80px;
+	left:260px;
+	text-align:center;
+}
+.kal-res2-jh-reser-gnb-calendarIconBlock>img{
+	margin-top:30px;
+}
+.kal-res2-jh-reser-gnb-scheduleBlock{
+	width:450px;
+	height:80px;
+	position:relative;
+	left:320px;
+	bottom:160px;
+}
+.kal-res2-jh-reser-gnb-scheduleBlock>.placeInfo{
+	margin:0 5px;
+	font-size:14px;
+	font-weight:bold;
+	color:black;
+}
+.kal-res2-jh-reser-gnb-placeInfo>img{
+	margin:0 5px;
+}
+.kal-res2-jh-reser-gnb-dateInfo{
+	margin:0 5px;
+	font-size:15px;
+	font-weight:bold;
+	color:black;
+}
+.kal-res2-jh-reser-gnb-seatInfo{
+	margin:0 5px;
+	font-size:15px;
+	font-weight:bold;
+	color:black;
+}
+.kal-res2-jh-reser-gnb-backBtn{
+	width:90px;
+	height:80px;
+	position:relative;
+	left:50px;
+	font-weight:bold;
+	text-decoration:none;
+	color:white;
+	background-color:#0180a3;
+	border:1px solid #0180a3;
+	cursor:pointer;
+	box-shadow: 1px 1px 10px #888888;
+}
+.kal-res2-jh-reser-gnb-fareSelect{
+	width:220px;
+	height:80px;
+	font-weight:bold;
+	font-size:14px;
+	position:relative;
+	bottom:81px;
+	left:490px;
+	text-align:center;
+	display:inline-block;
+}
+.kal-res2-jh-reser-gnb-fareSelect>span{
+	position:relative;
+	top:32px;
+}
+.kal-res2-jh-reser-gnb-passengerInfo{
+	width:220px;
+	height:80px;
+	font-weight:bold;
+	font-size:14px;
+	position:relative;
+	bottom:81px;
+	left:480px;
+	display:inline-block;
+	text-align:center;
+}
+.kal-res2-jh-reser-gnb-passengerInfo>span{
+	position:relative;
+	top:32px;
+}
+.kal-res2-jh-reser-gnb-payInfo{
+	width:220px;
+	height:80px;
+	font-weight:bold;
+	font-size:14px;
+	position:relative;
+	bottom:161px;
+	left:920px;
+	text-align:center;
+}
+.kal-res2-jh-reser-gnb-payInfo>span{
+	position:relative;
+	top:32px;
+}
+.kal-res2-jh-reser-gnb-confirm{
+	width:140px;
+	height:80px;
+	font-weight:bold;
+	font-size:14px;
+	position:relative;
+	bottom:241px;
+	left:1140px;
+	text-align:center;
+}
+.kal-res2-jh-reser-gnb-confirm>span{
+	position:relative;
+	top:32px;
+}
+.kal-res2-jh-reser-gnb-mainWrapper{
+	margin-top:110px;
+	width:100%;
+}
+
+/* 
+===============
+   res1 시작 
+=============== 
+*/
+.kal-res1-jh-subWrapper{
+	width:960px;
+	margin:0 auto;
+}
+.kal-res1-jh-bookingMainTitle>h1{
+	font-size:35px;
+	padding:50px 0;
+	font-weight:bold;
+}
+.kal-res1-jh-bookingSubTitle{
+	height:64px;
+	border-bottom:7px solid #0180a3;
+}
+.kal-res1-jh-bookingSubTitle>li>p{
+	width:480px;
+	height:50px;
+	float:left;
+	text-align:center;
+	font-size:26px;
+	cursor:pointer;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	letter-spacing:-0.5px;
+	font-weight:normal;
+	padding-top:20px;
+}
+.kal-res1-jh-bookingSubTitle-domestic{
+	color:rgb(102,102,102);
+	background-color:rgb(223,233,233);
+	box-shadow:rgb(187, 187, 187)-2px -1px 2px 0px inset;
+}
+.kal-res1-jh-bookingSubTitle-international{
+	color:white;
+	background-color:rgb(1,128,163);
+}
+.kal-res1-jh-checkIcon{
+	background-image:url("/web/resources/img/reservation/checkIcon.png");
+	background-repeat:no-repeat;
+	width:30px;
+	height:18px;
+	position:relative;
+	display:inline-block;
+	right:190px;
+}
+.kal-res1-jh-bookingBox{
+	border:1px solid #0180a3;
+	margin-bottom:15px;
+}
+.kal-res1-jh-commonResTitle{
+	padding-top:40px;
+	text-align:center;
+	font-size:26px;
+	letter-spacing:-0.5px;
+}
+.kal-res1-jh-checkBlue{
+	width:50px;
+	height:50px;
+	display:inline-block;
+	background-repeat:no-repeat;
+	padding-right:150px;
+	font-weight:bold;
+	background-image:url("/web/resources/img/reservation/checkBlue.png");
+	position:relative;
+	top:23px;
+	right:160px;
+}
+.kal-res1-jh-checkWhite{
+	width:50px;
+	height:50px;
+	display:inline-block;
+	background-repeat:no-repeat;
+	background-image:url("/web/resources/img/reservation/checkWhite.png");
+	position:relative;
+	top:23px;
+	right:185px;
+}
+.kal-res1-jh-commonRes{
+	font-weight:bold;
+	cursor:pointer;
+}
+.kal-res1-jh-bonusRes{
+	color:#666;
+	cursor:pointer;
+}
+.kal-res1-jh-tripType{
+	margin:70px 32px 30px;
+	text-align:left;
+}
+.kal-res1-jh-tripType>img{
+	padding-right:15px;
+}
+.kal-res1-jh-tripType>span{
+	padding-right:25px;
+}
+.kal-res1-jh-tripDetails{
+	margin:0 auto;
+	text-align:center;
+}
+.kal-res1-jh-tripDetails input{
+	width:280px;
+	height:50px;
+	padding-left:10px;
+}
+.kal-res1-jh-departureArea-btn{
+	width:25px;
+	height:25px;
+	display:inline-block;
+	cursor:pointer;
+	border:none;
+	background:none;
+	background-image:url("/web/resources/img/reservation/location.png");
+	background-repeat:no-repeat;
+	position:relative;
+	left:295px;
+	bottom:38px;	
+}
+.kal-res1-jh-arrivalArea-btn{
+	width:25px;
+	height:25px;
+	display:inline-block;
+	cursor:pointer;
+	border:none;
+	background:none;
+	background-image:url("/web/resources/img/reservation/location.png");
+	background-repeat:no-repeat;
+	position:relative;
+	left:565px;
+	bottom:38px;	
+}
+.kal-res1-jh-dateSelect-btn{
+	width:25px;
+	height:25px;
+	display:inline-block;
+	cursor:pointer;
+	border:none;
+	background:none;
+	background-image:url("/web/resources/img/reservation/calendar.png");
+	background-repeat:no-repeat;
+	position:relative;
+	left:830px;
+	bottom:38px;	
+}
+.kal-res1-jh-selectSeatWrapper{
+	height:160px;
+	border-top:1px solid #0180a3;
+	border-bottom:1px solid #0180a3;
+	margin:35px auto;
+	text-align:center;
+}
+.kal-res1-jh-selectSeatWrapper>p{
+	padding-top:40px;
+	padding-bottom:30px;
+	font-size:15px;
+	color:red;	
+}
+.kal-res1-jh-selectSeat{
+	background-color:#0180a3;
+	width:150px;
+	color:white;
+	font-size:18px;
+	border-radius:3px;
+	cursor:pointer;
+	padding:7px 26px;
+	display:inline-block;
+	box-shadow:0 1px 2px 1px rgba(0,0,0,0.2);
+	border:1px solid #0180a3;
+}
+.kal-res1-jh-submitWrapper{
+	text-align:center;
+}
+.kal-res1-jh-submitWrapper>p{
+	font-size:15px;
+	color:red;	
+}
+.kal-res1-jh-submit{
+	background-color:#0180a3;
+	width:150px;
+	color:white;
+	font-size:18px;
+	margin-top:30px;
+	margin-bottom:35px;
+	border-radius:3px;
+	cursor:pointer;
+	padding:7px 26px;
+	display:inline-block;
+	box-shadow:0 1px 2px 1px rgba(0,0,0,0.2);
+	border:1px solid #0180a3;
+}
+
+/* 
+===============
+   res2 시작 
+=============== 
+*/
+
+.kal-res2-jh-res-wrapper{
+      width:100%;
+}
+.kal-res2-jh-subWrapper{
+	width:960px;
+	margin:0 auto;
+	padding-top:80px;
+}
+.kal-res2-jh-mainTitle{
+	height:64px;
+	border-bottom:7px solid #0180a3;
+}
+.kal-res2-jh-mainTitle>li>p{
+	width:480px;
+	height:50px;
+	float:left;
+	text-align:center;
+	font-size:26px;
+	cursor:pointer;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	letter-spacing:-0.5px;
+	font-weight:normal;
+	padding-top:20px;
+}
+.kal-res2-jh-mainTitle-text1{
+	color:rgb(102,102,102);
+	background-color:rgb(223,233,233);
+	box-shadow:rgb(187, 187, 187)-2px -1px 2px 0px inset;
+}
+.kal-res2-jh-mainTitle-text2{
+	color:white;
+	background-color:rgb(1,128,163);
+}
+.kal-res2-jh-paragraph1{
+	text-align:center;
+	border-top:1px solid #0180a3;
+}
+.kal-res2-jh-paragraph1>h2{
+	font-size:30px;
+	padding:40px 0;
+	font-weight:bold;
+}
+.kal-res2-jh-paragraph1>p{
+	font-size:15px;
+	color:red;
+	padding-bottom:40px;
+}
+.kal-res2-jh-paragraph1-box{
+	width:900px;
+	margin:0 auto;
+	margin-bottom:40px;
+}
+.kal-res2-jh-paragraph1-leftbox{
+	display:inline-block;
+	margin-right:50px;
+	width:400px;
+	line-height:3;
+	
+}
+.kal-res2-jh-paragraph1-leftbox-info{
+	background-color:#0180a3;
+	color:white;
+	font-weight:bold;
+}
+.kal-res2-jh-paragraph1-leftbox-subinfo{
+	border:1px solid #0180a3;
+	background:#efefef;
+	font-size:14.5px;
+}
+.kal-res2-jh-paragraph1-leftbox-flightinfo{
+	border:1px solid #0180a3;
+	border-top:none;
+	font-weight:bold;
+	font-size:15px;
+}
+.kal-res2-jh-paragraph1-rightbox{
+	display:inline-block;
+	width:400px;
+	line-height:3;
+}
+.kal-res2-jh-paragraph1-rightbox-info{
+	background-color:#0180a3;
+	color:white;
+	font-weight:bold;
+}
+.kal-res2-jh-paragraph1-rightbox-subinfo{
+	border:1px solid #0180a3;
+	background:#efefef;
+	font-size:14.5px;
+}
+.kal-res2-jh-paragraph1-rightbox-flightinfo{
+	border:1px solid #0180a3;
+	border-top:none;
+	font-weight:bold;
+	font-size:15px;
+}
+.kal-res2-jh-paragraph2{
+	text-align:center;
+	border-top:1px solid #0180a3;
+}
+.kal-res2-jh-paragraph2>h2{
+	font-size:30px;
+	padding:40px 0;
+	font-weight:bold;
+}
+.kal-res2-jh-paragraph2>p{
+	font-size:15px;
+	color:red;	
+}
+.kal-res2-jh-paragraph2-icon{
+	margin-top:30px;
+}
+.kal-res2-jh-paragraph2-icon-v{
+	background-image:url("/web/resources/img/reservation/reser2-v.png");
+	background-repeat:no-repeat;
+	display:inline-block;
+	padding-left:20px;
+	padding-right:20px;
+	background-position-y:2px;
+}
+.kal-res2-jh-paragraph2-icon-x{
+	background-image:url("/web/resources/img/reservation/reser2-x.png");
+	background-repeat:no-repeat;
+	display:inline-block;
+	padding-left:20px;
+	background-position-y:2px;
+}
+.kal-res2-jh-paragraph2 table{
+	margin:40px auto;
+}
+.kal-res2-jh-paragraph2 table tr td{ 
+	border:1px solid black;
+	font-weight:bold;
+	padding:5px 10px;
+	width:120px;
+}
+.kal-res2-jh-paragraph2 .firstcol{
+	background-color:#0180a3;
+	color:white;
+}
+.kal-res2-jh-confirmbox{
+	border:1px solid #0180a3;
+	text-align:center;
+	margin-bottom:15px;
+}
+.kal-res2-jh-confirmbox-info{
+	background:#0180a3;
+	padding:15px 0;
+}
+.kal-res2-jh-confirmbox-info>span{
+	padding:0 100px;
+	color:white;
+	font-weight:bold;
+	font-size:18px;
+}
+.kal-res2-jh-confirmbox-contents{
+	padding:20px 0;
+}
+.kal-res2-jh-confirmbox-contents>p{
+	font-size:14px;
+	text-align:left;
+	padding:2px 10px;
+}
+.kal-res2-jh-submitbox{
+	border:1px solid #0180a3;
+	text-align:center;
+	margin-bottom:30px;
+}
+.kal-res2-jh-submitbox-info{
+	background:#0180a3;
+	padding:15px 0;
+	color:white;
+	font-weight:bold;
+	font-size:18px;
+}
+.kal-res2-jh-submitbox-price{
+	font-weight:bold;
+	font-size:20px;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+.kal-res2-jh-submitbox-text{
+	margin-bottom:20px;
+	font-size:15px;
+	color:red;	
+}
+.kal-res2-jh-submit{
+	background-color:#0180a3;
+	width:200px;
+	color:white;
+	font-size:18px;
+	border-radius:3px;
+	cursor:pointer;
+	padding:7px 26px;
+	display:inline-block;
+	box-shadow:0 1px 2px 1px rgba(0,0,0,0.2);
+	border:1px solid #0180a3;
+	margin-bottom:20px;
+}

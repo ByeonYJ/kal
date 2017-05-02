@@ -1,0 +1,53 @@
+package com.kal.web;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.SessionAttributes;
+
+@Controller
+public class GigunController {
+	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
+	  /*김기근*/
+	   
+	
+		@RequestMapping("/goAdmin")
+		public String goAdmim(){
+			logger.info("HomeController  user()  {}.", "enter");
+			return "admin/adminHome";
+			}
+		@RequestMapping("/adminUser")
+		public String adminUser(){
+			logger.info("HomeController  user()  {}.", "enter");
+			return "admin/adminUser";
+			}
+		@RequestMapping("/adminRes")
+		public String adminReservation(){
+			return "admin/adminReservation";
+		}
+		@RequestMapping("/adminSche")
+		public String adminSchedule(){
+			return "admin/adminSchedule";
+		}
+		@RequestMapping("/adminBoard")
+		public String adminBoard(){
+			return "admin/adminBoard";
+		}
+		@RequestMapping("/adminFlight")
+		public String adminFlight(){
+			return "admin/adminFlight";
+		}
+		@RequestMapping("/adminRoute")
+		public String adminRoute(){
+			return "admin/adminRoute";
+		}
+		@RequestMapping("/adminReservedSeat")
+		public String adminReservedSeat(){
+			return "admin/adminReservedSeat";
+		}
+		@RequestMapping("/adminSeat")
+		public String adminSeat(){
+			return "admin/adminSeat";
+		}
+}
