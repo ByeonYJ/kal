@@ -40,7 +40,7 @@
 						</div>
 					</div>
 					<div class="kal-res2-jh-paragraph1-rightbox">
-						<div class="kal-res2-jh-paragraph1-rightbox-info">도쿄/하네다(HND) → 서울/인천(ICN)</div>
+						<div class="kal-res2-jh-paragraph1-rightbox-info"><span>도쿄/하네다(HND)</span> → <span>서울/인천(ICN)</span></div>
 						<div class="kal-res2-jh-paragraph1-rightbox-subinfo">
 							<span class="kal-res2-jh-paragraph1-rightbox-subinfo-1">2017.06.30(금) ∥ </span>
 							<span class="kal-res2-jh-paragraph1-rightbox-subinfo-2">02:30 - 04:30  ∥ </span>

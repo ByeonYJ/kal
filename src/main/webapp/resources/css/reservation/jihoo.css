@@ -542,3 +542,410 @@
 	border:1px solid #0180a3;
 	margin-bottom:20px;
 }
+
+/* 
+===============
+   res3 시작 
+=============== 
+*/
+
+.kal-res3-jh-wrapper{
+	width:100%;
+}
+.kal-res3-jh-subwrapper{
+	width:980px;
+	margin:0 auto;
+}
+.kal-res3-jh-toptext{
+	padding-top:50px;
+}
+.kal-res3-jh-toptext>h2{
+	font-size:32px;
+	font-weight:bold;
+	padding-bottom:20px;
+}
+.kal-res3-jh-toptext>p{
+	font-size:14px;
+}
+.kal-res3-jh-toptext span{
+	color:red;
+	font-weight:bold;
+}
+.kal-res3-jh-passengerinfo{
+	width:720px;
+	height:50px;
+	margin-top:30px;
+	float:left;
+}
+.kal-res3-jh-passengerinfo-box1{
+	border:1px solid #0180a3;
+	padding:20px 20px 30px;
+}
+.kal-res3-jh-passengerinfo-box1-familynametext{
+	font-weight:bold;
+}
+.kal-res3-jh-passengerinfo-box1-aster{
+	padding-right:5px;
+	color:red;
+	font-weight:bold;
+}
+.kal-res3-jh-passengerinfo-box1-1{
+	display:inline-block;
+}
+.kal-res3-jh-familynameinput{
+	margin-top:10px;
+	padding:9px 10px;
+}
+.kal-res3-jh-passengerinfo-box1-2{
+	display:inline-block;
+}
+.kal-res3-jh-nameinput{
+	margin-top:10px;
+	padding:9px 10px;
+	display:inline-block;
+}
+.kal-res3-jh-familyname-span{
+	position:relative;
+	right:80%;
+	color:gray;
+	font-size:13px;
+}
+.kal-res3-jh-name-span{
+	position:relative;
+	right:73%;
+	color:gray;
+	font-size:13px;
+}
+.kal-res3-jh-passengerinfo-box1-gen{
+	padding-left:5px;
+	font-weight:bold;
+	color:red;
+}
+.kal-res3-jh-middletext{
+	margin-top:30px;
+}
+.kal-res3-jh-middletext>h2{
+	font-size:32px;
+	font-weight:bold;
+	padding-bottom:20px;
+}
+.kal-res3-jh-middletext>p{
+	font-size:14px;
+}
+.kal-res3-jh-middletext span{
+	color:red;
+	font-weight:bold;
+}
+.kal-res3-jh-passengerinfo-box2{
+	border:1px solid #0180a3;
+	padding:20px 20px 20px;
+	margin-top:30px;
+}
+.kal-res3-jh-passengerinfo-box2-phonenotext{
+	font-weight:bold;
+}
+.kal-res3-jh-phonenoinput{
+	margin-top:10px;
+	padding:9px 10px;
+}
+.kal-res3-jh-phoneno-span{
+	position:relative;
+	right:27%;
+	color:gray;
+	font-size:13px;
+}
+.kal-res3-jh-passengerinfo-box2-emailtext{
+	font-weight:bold;
+}
+.kal-res3-jh-email-span{
+	position:relative;
+	left:63%;
+	bottom:28px;
+	color:gray;
+	font-size:13px;
+}
+.kal-res3-jh-noticebox{
+	background:#0180a3;
+	padding:15px 0;
+	text-align:center;
+	margin-top:30px;
+}
+.kal-res3-jh-noticebox>span{
+	padding:0 100px;
+	color:white;
+	font-weight:bold;
+	font-size:18px;
+}
+.kal-res3-jh-noticecontents{
+	border:1px solid #0180a3;
+	padding:20px 20px;
+	font-size:14px;
+}
+.kal-res3-jh-confirmbox{
+	width:240px;
+	margin-top:30px;
+	border:1px solid #0180a3;
+	float:right;
+}
+.kal-res3-jh-confirmbox-toptext{
+	font-weight:bold;
+	font-size:22px;
+	background:#0180a3;
+	padding:10px 0;
+	color:white;
+	text-align:center;
+}
+.kal-res3-jh-confirmbox-box1{
+	text-align:center;
+	border-bottom:1px solid #0180a3;
+}
+.kal-res3-jh-confirmbox-box1 p{
+	font-size:14px;
+	padding:10px 0;
+}
+.kal-res3-jh-confirmbox-box1-text1{
+	padding-top:10px;
+	font-weight:bold;
+	font-size:18px;
+}
+.kal-res3-jh-confirmbox-box1-text2{
+	font-weight:bold;
+	font-size:18px;
+}
+.kal-res3-jh-detailbtn{
+	background-color:#0180a3;
+	width:160px;
+	color:white;
+	font-size:14px;
+	border-radius:3px;
+	cursor:pointer;
+	padding:7px 26px;
+	display:inline-block;
+	box-shadow:0 1px 2px 1px rgba(0,0,0,0.2);
+	border:1px solid #0180a3;
+	margin-bottom:20px;
+}
+.kal-res3-jh-confirmbox-box2{
+	text-align:center;
+}
+.kal-res3-jh-confirmbox-box2>p{
+	font-size:14px;
+	padding:10px 0;
+}
+.kal-res3-jh-confirmbox-box2 p span{
+	display:block;
+	padding:5px 0;
+}
+.kal-res3-jh-confirmbox-box2-text1{
+	padding-top:10px;
+	font-weight:bold;
+	font-size:18px;
+}
+.kal-res3-jh-confirmbox-box2-text1-price{
+	font-weight:bold;
+}
+.kal-res3-jh-confirmbox-box2-text1-price>span{
+	font-size:22px;
+}
+.kal-res3-jh-reser3submit{
+	background-color:#0180a3;
+	width:160px;
+	color:white;
+	font-size:14px;
+	border-radius:3px;
+	cursor:pointer;
+	padding:7px 26px;
+	display:inline-block;
+	box-shadow:0 1px 2px 1px rgba(0,0,0,0.2);
+	border:1px solid #0180a3;
+	margin-bottom:15px;
+}
+
+/* 
+===============
+   res4 시작 
+=============== 
+*/
+
+.kal-res4-jh-wrapper{
+	width:100%;
+}.kal-res4-jh-subwrapper{
+	width:980px;
+	margin:0 auto;
+}
+.kal-res4-jh-toptext{
+	padding-top:50px;
+}
+.kal-res4-jh-toptext>h2{
+	font-size:32px;
+	font-weight:bold;
+	padding-bottom:20px;
+}
+.kal-res4-jh-toptext>p{
+	font-size:14px;
+}
+.kal-res4-jh-toptext span{
+	color:red;
+	font-weight:bold;
+}
+.kal-res4-jh-noticebox-wrapper{
+	width:720px;
+	height:50px;
+	float:left;
+}
+.kal-res4-jh-textbox{
+	background:#0180a3;
+	padding:15px 0;
+	text-align:center;
+	margin-top:30px;
+}
+.kal-res4-jh-textbox>span{
+	padding:0 100px;
+	color:white;
+	font-weight:bold;
+	font-size:18px;	
+}
+.kal-res4-jh-textbox-contents{
+	border:1px solid #0180a3;
+	padding:20px 20px;
+	font-size:14px;
+}
+.kal-res4-jh-textbox-contents span{
+	font-weight:bold;
+	color:red;
+}
+.kal-res4-jh-checkbox{
+	border-top:1px dotted #0180a3;
+	margin:20px 0 0;
+	padding:20px 0 0; 
+	font-weight:bold;
+}
+.kal-res4-jh-noticebox{
+	background:#0180a3;
+	padding:15px 0;
+	text-align:center;
+	margin-top:30px;
+}
+.kal-res4-jh-noticebox>span{
+	padding:0 100px;
+	color:white;
+	font-weight:bold;
+	font-size:18px;	
+}
+.kal-res4-jh-noticecontents{
+	border:1px solid #0180a3;
+	padding:20px 20px;
+	font-size:14px;
+}
+.kal-res4-jh-submitbtn{
+	background-color:#0180a3;
+	width:160px;
+	color:white;
+	font-size:14px;
+	border-radius:3px;
+	cursor:pointer;
+	padding:7px 26px;
+	display:inline-block;
+	box-shadow:0 1px 2px 1px rgba(0,0,0,0.2);
+	border:1px solid #0180a3;
+	margin-bottom:15px;
+}
+
+/* 
+===============
+   res5 시작 
+=============== 
+*/
+
+.kal-res5-jh-wrapper{
+	width:100%;
+}
+.kal-res5-jh-subwrapper{
+	width:960px;
+	margin:0 auto;
+}
+.kal-res5-jh-toptext{
+	padding-top:50px;
+}
+.kal-res5-jh-toptext h2{
+	font-size:32px;
+	font-weight:bold;
+	padding-bottom:20px;
+}
+.kal-res5-jh-toptext p{
+	font-size:14px;
+}
+.kal-res5-jh-toptext span{
+	color:red;
+	font-weight:bold;
+}
+.kal-res5-jh-passengerinfotext{
+	background:#0180a3;
+	padding:15px 0;
+	text-align:center;
+	margin-top:30px;
+}
+.kal-res5-jh-passengerinfotext span{
+	padding:15px 100px;
+	color:white;
+	font-weight:bold;
+	font-size:18px;
+}
+.kal-res5-jh-passengerinfocontents{
+	text-align:center;
+	padding-top:30px;
+	padding-bottom:30px;
+	border:1px solid #0180a3;
+}
+.kal-res5-jh-passengerinfocontents p{
+	display:inline-block;
+	padding:5px 25px;
+}
+.kal-res5-jh-passengerinfocontents-name{
+	font-weight:bold;
+}
+.kal-res5-jh-passengerinfocontents-gender{
+	font-weight:bold;
+}
+.kal-res5-jh-flightinfotext{
+	background:#0180a3;
+	padding:15px 0;
+	text-align:center;
+	margin-top:30px;
+}
+.kal-res5-jh-flightinfotext span{
+	padding:15px 100px;
+	color:white;
+	font-weight:bold;
+	font-size:18px;
+}
+.kal-res5-jh-kal-res5-jh-flightinfocontents{
+	text-align:center;
+	border:1px solid #0180a3;
+	padding-bottom:25px;
+}
+.kal-res5-jh-kal-res5-jh-flightinfocontents>p{
+	font-weight:bold;
+	padding:25px 0;
+	font-size:18px;
+}
+.kal-res5-jh-kal-res5-jh-flightinfocontents-flight{
+	font-weight:bold;
+	display:block;
+	color:red;
+	padding-bottom:10px;
+}
+.kal-res5-jh-submit{
+	background-color:#0180a3;
+	width:200px;
+	color:white;
+	font-size:18px;
+	border-radius:3px;
+	cursor:pointer;
+	padding:7px 26px;
+	display:inline-block;
+	box-shadow:0 1px 2px 1px rgba(0,0,0,0.2);
+	border:1px solid #0180a3;
+	display:block;
+	margin:20px auto 0;
+}

@@ -9,17 +9,18 @@
   	  <link rel="stylesheet" href="${context}/resources/css/seoungsoo.css">
 </head>
 <body>
-<jsp:include page="/WEB-INF/views/common/sub-gnb-before-login.jsp" flush="false"/>
-<jsp:include page="/WEB-INF/views/common/main-gnb.jsp" flush="false"/>		
-<div class="kal-faq-ss-bg">
+<jsp:include page="/WEB-INF/views/common/sub-gnb-after-login.jsp" flush="false"/>
+<div id="kal-faq-ss-img" class="kal-faq-ss-bg">
+<div class="kal-faq-ss-title">
+	<h2>FAQ</h2>
+</div>
 	<div class="kal-faq-ss-wrapper">
-		<div class="">
 			<div class="kal-faq-ss-h2">
-			<h2>FAQ</h2>
+			<h2>자주 묻는 질문</h2>
 			</div>
 			<div class="kal-faq-ss">
 			<form action="" class="kal-faq-ss-form">
-			<div style="margin-right: 90px;">
+			<div class="kal-faq-ss-formstyle">
 				<label for="category-select" class="kal-faq-ss-label">상위분류</label>
 				<div class="kal-faq-ss-align">
 					<select name="" id="category-select" class="kal-faq-ss-select-style">
@@ -32,7 +33,7 @@
 					</select>
 					</div>
 				</div>
-					<div>
+					<div style="margin-left: 50px;">
 					<label for="category-select" class="kal-faq-ss-label">하위분류</label>
 					<div>
 					<select name="" id="category-subselect" class="kal-faq-ss-select-style">
@@ -51,17 +52,20 @@
 					</button>
 				</div>
 				<div class="kal-search-ss-contanier">
-				<div class="kal-search-ss-anscontainer">
+				<div class="kal-faq-ss-bar"></div>
 				<div>
-					<label for="faq-search" class="kal-faq-ss-anslabel">FAQ 검색하기</label>
+					<label for="faq-search" class="kal-faq-ss-searchlabel">FAQ 검색하기</label>
 					<span class="kal-faq-ss-holder" id="faq-search">수하물, 스카이패스 등</span>
 					<input type="text"  class="kal-faq-ss-search" aria-describedby="faq-search"/>
 					</div>
-				</div>
 				<button class="kal-search-ss-button-submit"></button>
 			</div>
+			<button id="kal-all-ss-button" class="kal-search-ss-button-all" type="button">전체 보기
+			<span></span>
+			</button>
 			</form>
-			<div>
+			<div id="container">
+			</div>
 				<ul class="kal-result-ss-count">
 					<li>전체
 					<span class="kal-result-ss-before"></span>
@@ -70,7 +74,7 @@
 					<li>(268)</li>
 				</ul>
 			</div>
-			<div style="margin-top: 100px;">
+			<div class="kal-faq-ss-list-border">
 			<ul class=" kal-list-ss-ul">
 				<li class="kal-list-ss-li">
 					<a href="#" id="kal-faqList-a">
@@ -151,10 +155,8 @@
 			</ul>
 			</div>
 			</div>
-			</div>
 	</div>
-</div>
-<jsp:include page="/WEB-INF/views/common/footer.jsp" flush="false"/>  
+	<jsp:include page="/WEB-INF/views/common/footer.jsp" flush="false"/>  
 </body>
 <script>
 	$(function(){
