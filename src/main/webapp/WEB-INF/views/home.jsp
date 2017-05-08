@@ -14,8 +14,8 @@
 <jsp:include page="/WEB-INF/views/common/sub-gnb-before-login.jsp" flush="false"/>
 <jsp:include page="/WEB-INF/views/common/main-gnb.jsp" flush="false"/>		
    <div class="container">
-		<!-- <button class="admin-test">관리자 임시 페이지</button>
-		<button id="mypage">마이페이지</button>	 -->   			
+		<button class="admin-test">관리자 임시 페이지</button>
+		<button id="mypage">마이페이지</button>			
    		<ul class="background-section">
    			<li class="main-background1 imgcount open">
    				<div class="maintext1">

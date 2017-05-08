@@ -1,21 +1,20 @@
-
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <style>
-   
 .kal-gg-sche-con{width:87%; height:auto; float:right; margin-left:5px; margin-top:40px; text-align:center; background-color:#f2f2f2;}
 .kal-gg-sche-inner-con{width:80%; margin:0 auto; margin-top:70px;}
-.kal-gg-sche-con-title{font-size: 20px; color: #666666; width:100%; height:50px; margin:0 auto; text-align: center;}
+.kal-gg-sche-con-title{font-size: 30px; color: #666666; width:100%; height:50px; margin:0 auto; text-align: center;}
 .kal-gg-sche-con-subtitle{font-size: 20px; color: #666666; margin-top:60px;  border-top: 1px solid #dadada; padding-top: 50px; clear:both;}
 .kal-gg-sche-con-table{text-align:center; width:100%; border:1px solid #dddddd; margin:50px auto 10px auto; }
-.kal-gg-sche-con-table tr{color: #6a7373; border: 1px solid #dddddd; }
+.kal-gg-sche-con-table tr{color: #6a7373; border: 1px solid #dddddd;}
 .kal-gg-sche-con-table tr th{color: #6a7373; border: 1px solid #dddddd; text-align:center; font-size: 14px;} 
-.kal-gg-sche-con-table tr td{color: #6a7373; border: 1px solid #dddddd; background-color: white; color: #737373; font-size:12px; height:35px; width:10%;} 
-.kal-gg-sche-con-search{ text-align:center;   width:100%; height:auto;	}
+.kal-gg-sche-con-table tr td{color: #6a7373; border: 1px solid #dddddd; background-color: white; color: #737373; font-size:12px; height:35px; width:20%; padding-top:7px;} 
+.kal-gg-sche-con-search{ text-align:center;   width:100%; height:auto;	margin:30px;}
 .kal-gg-sche-con-search div{/* padding-left:10%;   */margin:10px 5px;  padding-bottom: 10px; width:32%;  float:left;}
 .kal-gg-sche-con-search-cal{text-align:center; width:100%;  clear:both;}
 .kal-gg-sche-con-table2{text-align:center; width:90%; border:1px solid #dddddd; margin:20px auto; }
 .kal-gg-sche-con-table2 tr{color: #6a7373; border: 1px solid #dddddd; }
 .kal-gg-sche-con-table2 tr th{color: #6a7373; border: 1px solid #dddddd; text-align:center; font-size: 14px;} 
-.kal-gg-sche-con-table2 tr td{color: #6a7373; border: 1px solid #dddddd; background-color: white; color: #737373; font-size:12px; height:35px; width:10%;} 
+.kal-gg-sche-con-table2 tr td{color: #6a7373; border: 1px solid #dddddd; background-color: white; color: #737373; font-size:12px; height:35px; width:10%; padding-top:10px;} 
 .kal-gg-sche-con-update-button{float:right; font-size: 10px; }
 .kal-gg-sche-con-clear{clear:both;}
 .kal-gg-sche-con-btn{background-color:#0180a3;color:white;font-size:10px;border-radius:3px;	cursor:pointer;	padding:4px 10px;display:inline-block; float:right; margin-right:5px;
@@ -25,8 +24,8 @@
 					box-shadow:0 1px 2px 1px rgba(0,0,0,0.2);
 					border:1px solid #0180a3;}					
 .kal-gg-sche-con-btm{height:200px;}		
-.kal-gg-sch-con-select{  height: 20px;  background-image: url(${context}/resources/img/admin/sche/select.png);   background-repeat:no-repeat;    background-position: right center;
-           /*  background-color: white; */  width:80%; margin-right:20px; overflow: hidden; -webkit-appearance: none;}	
+.kal-gg-sch-con-select{  height: 20px;  background-image: url(${context}/resources/img/admin/sche/select.png);   background-repeat:no-repeat; background-position: right center;
+           /*  background-color: white; */  width:80%; margin-right:20px; overflow: auto; -webkit-appearance: none;}	
 .kal-gg-sche-con-btn-td-none{background-color: none; border-right: none; border-bottom: none; border-left: none; border-right: none;}
 .kal-gg-sche-con-btn-add{float:right; height:35px; width:13%; position:relative; top:42px; right:60px; /* position: relative; ; position:relative; left:140px; bottom:80px; padding-top:5px; */}
 .kal-gg-sche-con-wrapper{width:100%;}

@@ -19,7 +19,7 @@ public class SeoungsooController {
 		logger.info("SeoungsooController - faq() {}","Enter");
 		return "/customerService/faq";
 	}
-	@RequestMapping("/faqlist")
+	@RequestMapping("/faqList")
 	public String faqList(){
 		logger.info("SeoungsooController - faqList() {}","Enter");
 		return "/customerService/faqList";
