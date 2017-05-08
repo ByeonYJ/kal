@@ -72,5 +72,9 @@ $('.kal-res1-jh-submit').on('click',function(){
 	alert('항공편 조회 버튼 클릭');
 	location.href='${context}/reservation2';
 });
+$('.kal-res1-jh-selectSeat').on('click',function(){
+	alert('좌석 버튼 클릭');
+	location.href='${context}/reservation_seat';
+});
 </script>
 </html>
