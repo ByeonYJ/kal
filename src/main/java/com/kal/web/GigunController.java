@@ -46,8 +46,9 @@ public class GigunController {
 		public String adminReservedSeat(){
 			return "admin/adminReservedSeat";
 		}
-		@RequestMapping("/adminSeat")
-		public String adminSeat(){
-			return "admin/adminSeat";
+		@RequestMapping("/adminStatCon")
+		public String adminStat(){
+			return "admin/adminStat";
 		}
+	
 }

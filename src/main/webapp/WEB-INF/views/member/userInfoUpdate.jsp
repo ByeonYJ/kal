@@ -4,35 +4,24 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
-<script
-   src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-<script src="https://d1p7wdleee1q2z.cloudfront.net/post/search.min.js"></script>
-<link rel="stylesheet"
-   href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" href="${context}/resources/css/reset.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<link rel="stylesheet" href="${context}/resources/css/reset.css"/>
 <title>Mypage user update</title>
 <style>
-.header {
-   border: 3px solid #73AD21;
-   height: 35px;
-   width: 100%;
+
+
+.kal-hy-mypage-container-title{
+margin:20px;
+font-size: 30px;
 }
 
-.header1 {
-   position: relative;
-   margin-top: 0;
-   margin-right: 0;
-   border: 2px solid #9823ce;
-   height: 60px;
-   width: 100%;
-}
-
-.container {
+.kal-hy-mypage-container {
    border: 2px solid #b53939;
-   height: 1000px;
-   width: 100%;
+   width:90%;
+   margin:0 auto;
+   
 }
-.container2 {
+.kal-hy-mypage-container-title4 {
    position: relative;
    border: 2px solid #9823ce;
    height: 50%;
@@ -46,13 +35,9 @@
    border-width: 2px;
 }
 
-.footer {
-   border: 2px solid #10b8ce;
-   height: 50px;
-   width: 100%;
-}
-.kal-hy-mypage-navibar-ul{
 
+.kal-hy-mypage-navibar-ul{
+	width:100%;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -84,126 +69,137 @@ border-color:#c7cacc;
 border-radius: 3px;
 }
 .kal-hy-mypage-subnavibar-a{
+text-decoration: none;
 margin: 15px;
+}
+
+.kal-hy-mypage-subnavibar-a:active{
+color:#186686;
 }
 .kal-hy-userUpdate-txt1{
 position:relative;
-top:10%;
 left:30px;
 margin-top: 20px;
 font-family: 맑은고딕;
 font-size: 20px;
 }
+.kal-hy-mypage-userUpdte-text2{
+margin-left:5%;
+width:45%;
+margin-top: 20px;
+font-family: 맑은고딕;
+font-size: 15px;
+float:left;
+}
+
+.kal-hy-mypage-userUpdte-text3{
+width:40%;
+margin-top: 20px;
+font-family: 맑은고딕;
+font-size: 15px;
+float:right;
+}
 .kal-hy-userUpdate-kor-name{
-position:relative;
-left:30px;
+/* position:relative;
+left:30px; */
+
 font-size: 15px;
 font-family: 맑은고딕;
 font-weight: 20px;
 }
 .kal-hy-userUpdate-name{
-position:relative;
-left:4%;
-top:30px;
+padding-top:10px;
 font-size: 15px;
 font-family: 맑은고딕;
 font-weight: 20px;
+display: inline-block;
 }
 .kal-hy-userUpdate-birth{
-position:relative;
-left:40%;
+/* position:relative;
+left:40%; */
+
 font-size: 15px;
 font-family: 맑은고딕;
 font-weight: 20px;
 }
 .kal-hy-userUpdate-birthdate{
-position:relative;
-left:45.14%;
+display:inline-block;
+padding-top:10px;
 font-size: 15px;
 font-family: 맑은고딕;
 font-weight: 20px;
 }
 .kal-hy-userUpdate-email{
-position: relative;
-left:4%;
+
+margin-top:15px;
 font-size: 15px;
 font-family: 맑은고딕;
 font-weight: 20px;
+display: inline-block;
 }
 
 .kal-hy-userUpdate-inputEmail{
-position: relative;
-left:4%;
+
  width: 400px;
  height: 25px;
 }
 .kal-hy-userUpdate-postAddr{
-position: relative;
-left:39.3%;
+margin-top:15px;
+display: inline-block;
 font-size: 15px;
 font-family: 맑은고딕;
 font-weight: 20px;
 }
 .kal-hy-userInfoUpdate-updateBtn{
-position: relative;
-left: 13.7%;
+
 }
 .kal-hy-userUpdate-inputPostAddr{
-position: relative;
-left:19%;
-width: 400px;
+
+width: 200px;
  height:25px ;
 }
 .kal-hy-userUpdate-phone{
-position: relative;
-top:10%;
-left:4%;
+margin-top:15px;
 font-size: 15px;
 font-family: 맑은고딕;
 font-weight: 20px;
+display: inline-block;
 }
 .kal-hy-userUpdate-inputPhone{
-position: relative;
-left: 4%;
+
  width: 400px;
  height: 25px;
 }
 .kal-hy-userUpdate-addr{
-position: relative;
-top:10%;
-left:40%;
+margin-top:15px;
 font-size: 15px;
 font-family: 맑은고딕;
 font-weight: 20px;
+display: inline-block;
 }
 .kal-hy-userUpdate-inputAddr1{
-position: relative;
-left:18.6%;
-top:10%;
+
  width: 500px;
  height: 25px;
  width: 400px;
  height: 25px;
 }
 .kal-hy-userUpdate-inputAddr2{
-position: relative;
-left:44.7%;
-top:10%;
+margin-top:10px;
  width:500px;
  height: 25px;
  width: 400px;
  height: 25px;
+ display: inline-block;
 }
 .kal-hy-userUpdate-modifyBar{
-position: relative;
-top:80px;
+
 padding: 15px 700px;
 background-color: #e2ddb1
 }
 
 .kal-hy-userUpdate-hr{
-position: relative;
-top: 30%;
+width:100%;
 }
 
 .kal-hy-userUpdate-star{
@@ -213,42 +209,56 @@ color:orange;
 
 
 .kal-hy-userUpdate-searchBtn{
-position: relative;
-left: 18.8%;
 border-radius: 6px;
 width:80px;
- height:25px;
- color: white;
- background-color:#2e82ba;
- font-family: 맑은고딕 
+height:25px;
+color: white;
+background-color:#0180a3;
+font-family: 맑은고딕 
 }
 .kal-hy-userUpdate-confirmBtn{
+
+background-color:#0180a3;
+color:white;
+font-size:16px;
+border-radius:3px;
+cursor:pointer;
+padding:8px 30px;
+display:inline-block;
+margin:10% 1%;
+box-shadow:0 1px 2px 1px rgba(0,0,0,0.2);
+border:1px solid #0180a3; 
+right:20px;
 position: relative;
-top: 51%;
-left: 40%;
- color: white;
- background-color: #2e82ba;
-  width: 100px;
-  height:30px;
-  font-family: 맑은고딕;
+left: 37%;
+font-family: 맑은고딕;
 }
 .kal-hy-userUpdate-cancleBtn{
+background-color:#0180a3;
+color:white;
+font-size: 16px;
+border-radius: 3px;
+cursor:pointer;
+display:inline-block;
+
+padding:8px 65px;
+box-shadow:0 1px 2px 1px rgba(0,0,0,0.2);
+border:1px solid #0180a3; 
+font-family: 맑은고딕;
 position: relative;
-top: 51%;
-left: 43%;
-color: white;
-background-color: #9e9c79;
-width: 50px;
-height:30px;
-font-family: 맑은고딕
+left: 37%;
+
 }
 </style>
 </head>
 <body>
-   <div class="header">
-   </div>
-   <div class="container">
-   <h1>마이페이지</h1>
+<jsp:include page="/WEB-INF/views/common/sub-gnb-before-login.jsp" flush="false"/>
+<jsp:include page="/WEB-INF/views/common/main-gnb.jsp" flush="false"/>	
+
+   <div class="kal-hy-mypage-container">
+	   <div class="kal-hy-mypage-container-title">
+	  	 <h1>마이페이지</h1>
+	   </div>
          <div>
          <ul class="kal-hy-mypage-navibar-ul">
             <li role="presentation" class="kal-hy-mypage-navibar-li a"><a href="#">나의 마일리지</a></li>
@@ -271,46 +281,46 @@ font-family: 맑은고딕
       <a id="review"  class="kal-hy-mypage-subnavibar-a" href="#">▶ 리뷰</a>
       <a id="userRegist"  class="kal-hy-mypage-subnavibar-a" href="#">▶ 회원가입</a>
       </div>
-         <div class="container4">
+         <div class="kal-hy-mypage-container-title4">
+         <div>
          <h2 class="kal-hy-userUpdate-txt1">회원정보 수정</h2><br />
+         </div>
       <div>
-      <span style="position: relative;top: 8%;left: 30px;margin-bottom:8%;font-family: 맑은고딕;font-size: 15px;">
-      영문이름은 여권상의 이름과 동일하게 입력하여 주시기 바랍니다.</span></div>
-         <div style="position:relative;left: 30px; top: 20px;">
-          <span class="kal-hy-userUpdate-kor-name">홍길동 </span>
-         <span class="kal-hy-userUpdate-birth">생년월일</span>
-           </div>
-           <div style="position: relative;top: 5%;">
+	      <span style="position: relative;top: 8%;left: 30px;margin-bottom:8%;font-family: 맑은고딕;font-size: 15px;">
+	      영문이름은 여권상의 이름과 동일하게 입력하여 주시기 바랍니다.</span>
+      </div>
+      
+      <div class="kal-hy-mypage-userUpdte-text2">
+          <span class="kal-hy-userUpdate-kor-name">홍길동 </span><br/>
           <span class="kal-hy-userUpdate-name" >HONG/GIL DONG</span><br />
+      </div>
+      <div class="kal-hy-mypage-userUpdte-text3">
+     	 <span class="kal-hy-userUpdate-birth">생년월일</span><br />
          <span class="kal-hy-userUpdate-birthdate" >1990-01-01</span><br />
-          </div>
+      </div>
       <hr class="kal-hy-userUpdate-hr"/>
-      <div style="position: relative;top: 10%;">
-      <span class="kal-hy-userUpdate-email">이메일 주소<span class="kal-hy-userUpdate-star">*</span></span>
-      <span class="kal-hy-userUpdate-postAddr" >우편주소<span class="kal-hy-userUpdate-star">*</span></span>
+      <div style="float:left; width:40%; margin-left:10% ;" >
+	      <span class="kal-hy-userUpdate-email">이메일 주소<span class="kal-hy-userUpdate-star">*</span></span><br />
+	      <input class="kal-hy-userUpdate-inputEmail" type="text" placeholder="이메일" /><br />
+	      <span class="kal-hy-userUpdate-phone">전화번호<span class="kal-hy-userUpdate-star">*</span></span><br />
+	      <input class="kal-hy-userUpdate-inputPhone" type="text" placeholder="전화번호" />
       </div>
-      <div>
-       <input class="kal-hy-userUpdate-inputEmail" type="text" placeholder="이메일" />
-      <input class="kal-hy-userUpdate-searchBtn" type="button" value="검색"/>
-      <input class="kal-hy-userUpdate-inputPostAddr" type="text" placeholder="우편주소" />
+      <div style="float:right; width:40%; margin-left:10%">
+          <span class="kal-hy-userUpdate-postAddr" >우편번호<span class="kal-hy-userUpdate-star">*</span></span><br />
+	      <input class="kal-hy-userUpdate-searchBtn" type="button" value="검색"/>
+	      <input class="kal-hy-userUpdate-inputPostAddr" type="text" placeholder="우편주소" /><br />
+	      <span class="kal-hy-userUpdate-addr" >주소 <span class="kal-hy-userUpdate-star">*</span></span> <br />
+          <input class="kal-hy-userUpdate-inputAddr1" type="text" placeholder="주소" /><br />
+  		  <input class="kal-hy-userUpdate-inputAddr2" type="text" placeholder="주소" /><br />
       </div>
-     <div>
-       <span class="kal-hy-userUpdate-phone">전화번호<span class="kal-hy-userUpdate-star">*</span></span>
-      <span class="kal-hy-userUpdate-addr" >주소 <span class="kal-hy-userUpdate-star">*</span></span>
-      <br />
-      <input class="kal-hy-userUpdate-inputPhone" type="text" placeholder="전화번호" />
-      <input class="kal-hy-userUpdate-inputAddr1" type="text" placeholder="주소" /><br />
-      <input class="kal-hy-userUpdate-inputAddr2"   type="text" placeholder="주소" />
-     </div>
+     
    	  <div> 
-   	   <span><input class="kal-hy-userUpdate-confirmBtn" type="button" value="회원정보 수정"/>
-   	   <input class="kal-hy-userUpdate-cancleBtn" type="button" value="취소" />
-   	   </span> 
+	   	   <span><input class="kal-hy-userUpdate-confirmBtn" type="button" value="회원정보 수정"/>
+	   	   <input class="kal-hy-userUpdate-cancleBtn" type="button" value="취소" /></span> 
    	  </div>
    </div>
       </div>  
-  
-   <div class="footer">footer</div>
+   <jsp:include page="/WEB-INF/views/common/footer.jsp" flush="false"/>  
 </body>
 <script>
 $(function(){

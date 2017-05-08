@@ -6,30 +6,20 @@
 <script
    src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 <script src="https://d1p7wdleee1q2z.cloudfront.net/post/search.min.js"></script>
-<link rel="stylesheet"
-   href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="/web/resources/css/reset.css">
 <title>마이페이지 비밀번호변경-대한항공</title>
 <style>
-.header {
-   border: 3px solid #73AD21;
-   height: 35px;
-   width: 100%;
+
+.kal-hy-mypage-container-title{
+margin:20px;
+font-size: 30px;
 }
 
-.header1 {
-   position: relative;
-   margin-top: 0;
-   margin-right: 0;
-   border: 2px solid #9823ce;
-   height: 60px;
-   width: 100%;
-}
-
-.container {
+.kal-hy-mypage-container {
    border: 2px solid #b53939;
-   height: 1000px;
-   width: 100%;
+   width:90%;
+   height:600px;
+   margin:0 auto;
 }
 .kal-hy-changepass-container-txt1{
 position: relative;
@@ -98,6 +88,18 @@ background-color:#70706a;
 font-family: 맑은고딕 ;
 border-radius: 3px;
 }
+.kal-hy-changepass-canclebtn2{
+position: relative;
+left:220px;
+top: 95px;
+width: 150px;
+height: 30px;
+color: white;
+background-color: #337a93;
+font-family: 맑은고딕;
+border-radius: 3px;
+}
+
 .container2 {
    position: relative;
    border: 2px solid #9823ce;
@@ -126,11 +128,6 @@ border-radius: 3px;
    border-width: 2px;
 }
 
-.footer {
-   border: 2px solid #10b8ce;
-   height: 50px;
-   width: 100%;
-}
 
 .kal-hy-mypage-navibar-ul{
 
@@ -158,16 +155,76 @@ border-radius: 3px;
 	color:black;
     background-color: #eaf0f2;
 }
+.kal-hy-mypage-subnavibar-div{
+padding: 15px;
+border: 1px solid;
+border-color:#c7cacc;
+border-radius: 3px;
+}
+.kal-hy-mypage-subnavibar-a{
+text-decoration: none;
+margin: 15px;
+}
+
+.kal-hy-mypage-subnavibar-a:active{
+color:#186686;
+}
+.kal-hy-changepass-txt1{
+position:relative;
+left:30px;
+top:20px;
+font-size: 20px;
+}
+.kal-hy-changepass-txt2{
+position: relative;
+left:30px;
+top: 30px;
+font-size: 16px;
+}
+.kal-hy-changepass-txt3{
+position: relative;
+top: 25px;
+font-size: 15px;
+}
+.kal-hy-changepass-txt4{
+position: relative;
+top: 35px;
+}
+.kal-hy-changepass-txt5{
+position: relative;
+top: 45px;
+font-size: 15px;
+}
+.kal-hy-changepass-input1{
+position: relative;
+top: 30px;
+}
+.kal-hy-changepass-input2{
+ position: relative;
+ top: 40px;
+}
+.kal-hy-changepass-input3{
+position: relative;
+top: 50px;
+}
+.kal-hy-changepass-box{
+margin-top:10px;
+position: relative;
+left:30px;
+top:20px; 
+}
+
 
 </style>
 </head>
+
 <body>
-   <div class="header">
-      <div class="gnb">gnb</div>
-      <div class="header1">korean air logo</div>
-   </div>
-   <div class="container">
-      <h1>마이페이지</h1>
+<jsp:include page="/WEB-INF/views/common/sub-gnb-before-login.jsp" flush="false"/>
+<jsp:include page="/WEB-INF/views/common/main-gnb.jsp" flush="false"/>
+   <div class="kal-hy-mypage-container">
+   	  <div class="kal-hy-mypage-container-title">
+      	<h1>마이페이지</h1>
+      </div>
          <div>
          <ul class="kal-hy-mypage-navibar-ul">
             <li role="presentation" class="kal-hy-mypage-navibar-li a"><a href="#">나의 마일리지</a></li>
@@ -180,8 +237,8 @@ border-radius: 3px;
             <li role="presentation" class="kal-hy-mypage-navibar-li a"><a href="#">가족마일리지 합산</a></li>
          </ul>
       </div>
-      <div class="kal-hy-mypage-subnavibar-div">
-      <a id="mypageUserInfo" class="kal-hy-mypage-subnavibar-a" href="#">▶ 회원정보 보기</a>
+       <div class="kal-hy-mypage-subnavibar-div">
+      <a class="kal-hy-mypage-subnavibar-a" href="#">▶ 회원정보 보기</a>
       <a id="mypageUserUpdate" class="kal-hy-mypage-subnavibar-a" href="#">▶ 회원정보 수정</a>
       <a id="mypageUserChangePass" class="kal-hy-mypage-subnavibar-a" href="#">▶ 비밀번호 변경</a>
       <a id="userReservation"  class="kal-hy-mypage-subnavibar-a" href="#">▶ 나의예약</a>
@@ -192,35 +249,31 @@ border-radius: 3px;
       </div>
   
       <div>
-        <span class=".kal-hy-changepass-txt1" style="position:relative;top:10px;font-size: 20px;" >비밀번호 변경</span>
+        <span class="kal-hy-changepass-txt1">비밀번호 변경</span>
       </div>
 	<div>
-        <span class="kal-hy-changepass-txt2" style="position: relative;top: 16px;font-size: 16px;">새로 사용할 비밀번호를 입력하여 주십시오.</span>
+        <span class="kal-hy-changepass-txt2">새로 사용할 비밀번호를 입력하여 주십시오.</span>
 	</div>
-<div style="position: relative;left:30px;top:20px; ">
-	<span class="kal-hy-changepass-txt3" style="position: relative;top: 25px;font-size: 15px; ">현재 비밀번호<font class="kal-hy-changepass-txt-star">*</font></span>
+<div class="kal-hy-changepass-box">
+	<span class="kal-hy-changepass-txt3">현재 비밀번호<font class="kal-hy-changepass-txt-star">*</font></span>
 	<br />
-	<input class="kal-hy-changepass-input1" style="position: relative;top: 30px;" type="text" placeholder="현재 비밀번호"/>
+	<input class="kal-hy-changepass-input1" type="text" placeholder="현재 비밀번호"/>
 	<br />
-	<span class="kal-hy-changepass-conatianer-txt4" style="position: relative;top: 35px;" >새로운 비밀번호 <font class="kal-hy-changepass-txt-star">*</font></span>
+	<span class="kal-hy-changepass-conatianer-txt4" >새로운 비밀번호 <font class="kal-hy-changepass-txt-star">*</font></span>
 	<br />
-	<input class="kal-hy-changepass-input2" style="position: relative;top: 40px;" type="text" placeholder="새로운 비밀번호"/>
+	<input class="kal-hy-changepass-input2" type="text" placeholder="새로운 비밀번호"/>
 	<br />
-	<span class="kal-hy-changepass-txt5" style="position: relative;top: 45px;font-size: 15px;">새 비밀번호 확인 <font class="kal-hy-changepass-txt-star">*</font></span>
+	<span class="kal-hy-changepass-txt5" >새 비밀번호 확인 <font class="kal-hy-changepass-txt-star">*</font></span>
 	<br />
-	<input class="kal-hy-changepass-input3" style="position: relative;top: 50px;" type="text" placeholder="새 비밀번호 확인"/>
+	<input class="kal-hy-changepass-input3" type="text" placeholder="새 비밀번호 확인"/>
 	<br />
 </div>
 
 	
-	<input class="kal-hy-changepass-canclebtn" style="" type="button" value="취소"/>
-	<input style="position: relative;left:220px;top: 95px;width: 150px;height: 30px;color: white;background-color: #337a93;font-family: 맑은고딕;border-radius: 3px;" type="button" value="비밀번호 변경"/>
-	
-	
-   
+	<input class="kal-hy-changepass-canclebtn" type="button" value="취소"/>
+	<input class="kal-hy-changepass-canclebtn2" type="button" value="비밀번호 변경"/>
    </div>
-  
-   <div class="footer">footer</div>
+<jsp:include page="/WEB-INF/views/common/footer.jsp" flush="false"/>  
 </body>
 <script>
 $(function(){
