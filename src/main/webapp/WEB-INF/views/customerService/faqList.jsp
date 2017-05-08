@@ -10,7 +10,6 @@
 </head>
 <body>
 <jsp:include page="/WEB-INF/views/common/sub-gnb-after-login.jsp" flush="false"/>
-<jsp:include page="/WEB-INF/views/reservation/reservation-gnb.jsp" flush="false"/>
 <div id="kal-faq-ss-img" class="kal-faq-ss-bg">
 <div class="kal-faq-ss-title">
 	<h2>FAQ</h2>
