@@ -9,9 +9,9 @@
   	 <link rel="stylesheet" href="${context}/resources/css/seoungsoo.css">
 </head>
 <body>
-<jsp:include page="/WEB-INF/views/common/sub-gnb-before-login.jsp" flush="false"/>
-<jsp:include page="/WEB-INF/views/common/main-gnb.jsp" flush="false"/>		
-<div id="container" class="kal-faq-ss-bg">
+<jsp:include page="/WEB-INF/views/common/sub-gnb-after-login.jsp" flush="false"/>
+<jsp:include page="/WEB-INF/views/reservation/reservation-gnb.jsp" flush="false"/>
+<div id="kal-faq-ss-img" class="kal-faq-ss-bg">
 <div class="kal-faq-ss-title">
 	<h2>FAQ</h2>
 </div>
@@ -34,7 +34,7 @@
 					</select>
 					</div>
 				</div>
-					<div>
+					<div style="margin-left: 50px;">
 					<label for="category-select" class="kal-faq-ss-label">하위분류</label>
 					<div>
 					<select name="" id="category-subselect" class="kal-faq-ss-select-style">
@@ -53,28 +53,29 @@
 					</button>
 				</div>
 				<div class="kal-search-ss-contanier">
-				<div class="kal-search-ss-subcontainer">
+				<div class="kal-faq-ss-bar"></div>
 				<div>
 					<label for="faq-search" class="kal-faq-ss-searchlabel">FAQ 검색하기</label>
 					<span class="kal-faq-ss-holder" id="faq-search">수하물, 스카이패스 등</span>
 					<input type="text"  class="kal-faq-ss-search" aria-describedby="faq-search"/>
-					</div>
-				</div>				
+					</div>			
 				<button class="kal-search-ss-button-submit"></button>
 			</div>
-			<button class="kal-search-ss-button-all">전체 보기
+			<button id="kal-all-ss-button" class="kal-search-ss-button-all" type="button">전체 보기
 			<span></span>
 			</button>
 			</form>
 			</div>
 			</div>
 	</div>
-<jsp:include page="/WEB-INF/views/common/footer.jsp" flush="false"/>  
+	<jsp:include page="/WEB-INF/views/common/footer.jsp" flush="false"/>  
 </body>
 <script>
-	$('.kal-search-ss-button-all').on('click',function(){
+$(function(){
+	$('#kal-all-ss-button').on('click',function(){
 		alert('FAQ 리스트');
-		location.href="${context}/faqlist";
+		location.href='${context}/faqList';
 	});
+});
 </script>
 </html>	

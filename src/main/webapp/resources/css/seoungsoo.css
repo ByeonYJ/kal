@@ -76,35 +76,34 @@
 		  	background-attachment: fixed;
   	 		width: 100%;
   	 		height: 100%;
-  	 		right: 0;
-  	 		top: 0;
-  	 		margin: 0;
   	 	}
   	 	.kal-faq-ss-title{
   	 		position: relative;
-  	 		font-size: 35px;
+  	 		font-size: 60px;
   	 		line-height: normal;
-  	 		font-weight: 400;
+  	 		
   	 		color : #ffffff;
-  	 		margin-left: 150px;
+  	 		margin-left: 155px;
   	 		margin-bottm: 200px;
-  	 		top: 50px;
+  	 		top: 20px;
   	 		opacity: 0.779235;
   	 	}
   	 	.kal-faq-ss-wrapper{
   	 		position:relative;
   	 		z-index: 505;
-  	 		border: 1px solid black;
+  	 		border: 1px solid white;
   	 		margin-left: 10%;
   	 		margin-right: 10%;
   	 		margin-bottom: 50px;
-  	 		margin-top:100px;
+  	 		margin-top:20px;
   	 		padding-bottom:70px;
   	 		background-color: rgba(255,255,255,0.95);
+  	 		font-family: "맑은 고딕";
   	 		
   	 	}
   	 	.kal-faq-ss-h2{
-  	 		font-size : 25px;
+  	 		font-size : 30px;
+  	 		font-weight : bold;
   	 		text-align: center;
   	 		margin:20px,0,0,0;
   	 		line-height:1.2;
@@ -129,8 +128,8 @@
   	 		background-repeat:no-repeat;
   	 		background-position: right center;
   	 		background-color: white;
-  	 		width:150%;
-  	 		margin-right:20px;
+  	 		width:170%;
+  	 		margin-right:30px;
   	 		overflow: hidden;
   	 		-webkit-appearance: none;
   	 		
@@ -139,16 +138,16 @@
   	 	.kal-faq-ss-search{
   	 		    border: 1px solid #ccc;
 			    font-size: 13px;
-			    height: 15px;
+			   	right: 20px;
 			    padding: 16px 42px 14px 15px;
-			    width: 92%;
-			    margin-right: 90px;
-			    margin-top: 60px;
+			    width: 115%;
+			    margin-left: 33px;
+			    margin-top: 0px;
   	 	}
   	 	.kal-faq-ss-form{
   	 		position:relative;
   	 		margin: 0 auto;
-  	 		width: 80%;
+  	 		width: 90%;
   	 		
   	 	}
   	 	.kal-faq-ss-formstyle{
@@ -170,8 +169,8 @@
   	 	}
   	 	.kal-faq-ss-holder{
   	 		position: absolute;
-		    top: 68%;
-		    left: 90px;
+		    top: 60%;
+		    left: 130px;
 		    font-size: 13px;
 		    color: #757575;
 		    font-weight: normal;
@@ -183,8 +182,8 @@
 	  	 	height: 47px;
 	  	 	font-size: 16px;
 	  	 	padding: 40px,0;
-	  	 	margin-bottom: 5px;
-	  	 	margin-left : 90px;
+	  	 	margin-bottom: 3px;
+	  	 	margin-left : 130px;
 	  	 	vertical-align: middle;
 	  	 	text-align: center;
 	  	 	border-color: #186686;
@@ -213,7 +212,9 @@
 	  	 	border-left: 1px solid #6b6969;
 	  	 	position: relative;
 	  	 	display: block;
-	  	 	margin-left: 15px;
+	  	 	margin-left: 28px;
+	  	 	margin-top: 20px;
+	  	 	height: 100px;
 	  	 }
 	  	 .kal-search-ss-button-submit{
 	  	 	    background-color: white;
@@ -221,12 +222,13 @@
 			    background-repeat: no-repeat;
 			    background-position: center center;
 			    border: 0;
-			    bottom: 1px;
+			    bottom: 21px;
 			    font-size: 0;
-			    height: 45px;
+			    height: 43px;
 			    position: absolute;
-			    margin-left:94.6%;
+			    margin-left:130%;
 			    width: 50px;
+			    
 	  	 }
 	  	 .kal-search-ss-button-submit:hover{
 	  		border:1px solid #186686;
@@ -263,6 +265,7 @@
 		    font-size: 18px;
 		    margin: 40px 0 20px;
 		    padding: 0;
+		    margin-left: 20px;
 
 	  	 }
 	  	 .kal-result-ss-count li{
@@ -272,6 +275,7 @@
 		    list-style: none;
 		    margin-left: 10px;;
 		    padding: 0;
+		    margin-top: 15px;
 		   
 	  	 }
 	  	 .kal-result-ss-before{
@@ -281,17 +285,18 @@
 	  	 	display: inline-block;
 	  	 	float : right;
 	  	 	right: 0;
-	  	 	margin-top: 10px;
+	  	 	margin-top: 5px;
 	  	 	margin-left: 10px;
 	  	 }
 	  	.kal-list-ss-ul{
-	  	 	border: 1px solid #ccc;
+	  	 	border: 3px solid black;
 	  	 	position: relative;
 	  	 	list-style-type: none;
+	  	 	margin: 1px 20px -1px 20px;
 	  	 }
 	  	 .kal-list-ss-li{
 	  	 	border-top: 1px solid #ccc;
-	  	 	margin: 1px 20px -1px -20px;
+	  	 	margin: 1px 20px -1px 20px;
 	  	 	position: relative;
 	  	 	z-index: 1;
 	  	 }
@@ -320,7 +325,7 @@
 	  	   .kal-list-ss-answer{
 	  	 		color: black;
 	  	 		display: none;
-	  	 }
+	  	   }
 	  		.kal-list-ss-ans{
 	  	 		position: absolute;
 			    height: 1px;
@@ -334,10 +339,15 @@
 	  	 	margin-bottom: 5px;
 	  	 }
 	  	 .kal-faq-ss-searchlabel{
-	  	 	margin-bottom: -50px;
+	  	 	margin-bottom: 20px;
+	  	 	margin-left: 33px;
 	  	 }
-	  	 .kal-search-ss-subcontainer{
-	  	 	margin-left: 20px;position: relative;
+	  	 .kal-faq-ss-bar{
+	  	 	margin-right:5px;
+	  	 }
+	  	 .kal-faq-ss-list-border{
+	  	 	border: 1px fixed block;
+	  	 	margin-top: 100px
 	  	 }
 	  	 
 	  	 
