@@ -90,13 +90,7 @@ var seat = (function(){
 		second_seat(2,7);
 		third_seat(6,9);
 	};
-	
-	return {
-		init : init,
-		onCreate : onCreate,
-		
-		first_seat : function(row, col){
-			
+	var first_seat = function(row, col){
 			var first_seat = $('#first_seat');
 			var id = 0;
 			var temp = ['a','b'];
@@ -139,47 +133,45 @@ var seat = (function(){
 			}); 
 						
 			return first_seat;
-		},
-		/* 프레스티지석 시작 */
-		second_seat : function(row,col){
-			var second_seat = $('#second_seat');
-			var id = 0;
-			var temp = ['c','d'];
-			var seatTable = '';
-			second_seat.html(seatTable);
-			for(var i=0;i<row;i++){
-				id=0;
-				seatTable = '</br>';
-				second_seat.append(seatTable);
-				for(var j=0;j<col;j++){
-					id++;
-					if(j==1||j==4){
-						seatTable = '<a id="'+temp[i]+''+ id +'" href="#"><img src="${context}/resources/img/reservation/plane/2seat_normal.png"/></a><span class="second_span"></span>'
-						second_seat.append(seatTable);
-						$('#'+temp[i]+''+ id).addClass('seat2');
-					}else{
-						seatTable = '<a id="'+temp[i]+''+ id +'" href="#"><img src="${context}/resources/img/reservation/plane/2seat_normal.png"/></a>'
-						second_seat.append(seatTable);
-						$('#'+temp[i]+''+ id).addClass('seat2');
-					}
+	};
+	var second_seat = function(row,col){
+		var second_seat = $('#second_seat');
+		var id = 0;
+		var temp = ['c','d'];
+		var seatTable = '';
+		second_seat.html(seatTable);
+		for(var i=0;i<row;i++){
+			id=0;
+			seatTable = '</br>';
+			second_seat.append(seatTable);
+			for(var j=0;j<col;j++){
+				id++;
+				if(j==1||j==4){
+					seatTable = '<a id="'+temp[i]+''+ id +'" href="#"><img src="${context}/resources/img/reservation/plane/2seat_normal.png"/></a><span class="second_span"></span>'
+					second_seat.append(seatTable);
+					$('#'+temp[i]+''+ id).addClass('seat2');
+				}else{
+					seatTable = '<a id="'+temp[i]+''+ id +'" href="#"><img src="${context}/resources/img/reservation/plane/2seat_normal.png"/></a>'
+					second_seat.append(seatTable);
+					$('#'+temp[i]+''+ id).addClass('seat2');
 				}
 			}
-			
-			$('.seat2').on('click',function(){
-//				alert('2등석 좌석 클릭');
-				if(this.children[0].getAttribute('src') === '/web/resources/img/reservation/plane/2seat_normal.png'){
-					this.children[0].setAttribute('src','/web/resources/img/reservation/plane/2seat_selected.png');	
-				}else{
-					this.children[0].setAttribute('src','/web/resources/img/reservation/plane/2seat_normal.png');
-				}
-							
-				/* $(this).children[0].attr('src',"${context}/resources/img/reservation/plane/2seat_selected.png"); */
-			}); 
-			
-			return second_seat;
-		},
-		/* 일반석  */
-		third_seat : function(row,col){
+		}
+		
+		$('.seat2').on('click',function(){
+//			alert('2등석 좌석 클릭');
+			if(this.children[0].getAttribute('src') === '/web/resources/img/reservation/plane/2seat_normal.png'){
+				this.children[0].setAttribute('src','/web/resources/img/reservation/plane/2seat_selected.png');	
+			}else{
+				this.children[0].setAttribute('src','/web/resources/img/reservation/plane/2seat_normal.png');
+			}
+						
+			/* $(this).children[0].attr('src',"${context}/resources/img/reservation/plane/2seat_selected.png"); */
+		}); 
+		
+		return second_seat;
+	};
+	var third_seat = function(row,col){
 			var third_seat = $('#third_seat');
 			var id = 0;
 			var temp = ['e','f','g','h','i','j'];
@@ -215,10 +207,20 @@ var seat = (function(){
 			}); 
 
 			
-			return seatTable;
-		}
-		
+			return third_seat;
 	};
+	
+	return {
+		init : init,
+		onCreate : onCreate,
+		
+		first_seat : first_seat,
+		/* 프레스티지석 시작 */
+		second_seat : second_seat,
+		/* 일반석  */
+		third_seat : third_seat
+		}		
+	
 })();
 var select_seat = (function(){
 	return {
