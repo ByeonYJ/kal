@@ -10,53 +10,53 @@
 <div class="kal-gg-body">
 <div class="kal-gg-nav">
 
-  <div id="user">
+  <div id="kal-gg-nav-user">
   	<img src="${context}/resources/img/admin/nav/user1.jpg" 
   		onmouseover="this.src='${context}/resources/img/admin/nav/user2.jpg'" 
   		onmouseout="this.src='${context}/resources/img/admin/nav/user1.jpg'" border="0" style="display:block;">
   </div>
-  <div id="res">
+  <div id="kal-gg-nav-res">
 	  <img src="${context}/resources/img/admin/nav/res1.jpg" 
 	  		onmouseover="this.src='${context}/resources/img/admin/nav/res2.jpg'" 
 	  		onmouseout="this.src='${context}/resources/img/admin/nav/res1.jpg'" border="0" style="display:block;">
   </div>
-  <div id="sche">
+  <div id="kal-gg-nav-sche">
 	  <img src="${context}/resources/img/admin/nav/sche1.jpg" 
 	  		onmouseover="this.src='${context}/resources/img/admin/nav/sche2.jpg'" 
 	  		onmouseout="this.src='${context}/resources/img/admin/nav/sche1.jpg'" border="0" style="display:block;">
   </div>
-  <div id="board">
+  <div id="kal-gg-nav-board">
 	  <img src="${context}/resources/img/admin/nav/board1.jpg" 
 	  		onmouseover="this.src='${context}/resources/img/admin/nav/board2.jpg'" 
 	  		onmouseout="this.src='${context}/resources/img/admin/nav/board1.jpg'" border="0" style="display:block;">
   </div>
-  <div id="flight">
+  <div id="kal-gg-nav-flight">
 	 <img src="${context}/resources/img/admin/nav/flight1.jpg" 
 	  		onmouseover="this.src='${context}/resources/img/admin/nav/flight2.jpg'" 
 	  		onmouseout="this.src='${context}/resources/img/admin/nav/flight1.jpg'" border="0" style="display:block;">
   </div>
   
-   <div id="route">
+   <div id="kal-gg-nav-route">
 	 <img src="${context}/resources/img/admin/nav/route1.jpg" 
 	  		onmouseover="this.src='${context}/resources/img/admin/nav/route2.jpg'" 
 	  		onmouseout="this.src='${context}/resources/img/admin/nav/route1.jpg'" border="0" style="display:block;">
   </div>
-  <div id="stat">
+  <div id="kal-gg-nav-stat">
 	 <img src="${context}/resources/img/admin/nav/stat1.jpg" 
 	  		onmouseover="this.src='${context}/resources/img/admin/nav/stat2.jpg'" 
 	  		onmouseout="this.src='${context}/resources/img/admin/nav/stat1.jpg'" border="0" style="display:block;">
   </div>
- 		<div class="kal-gg-nav-drop">CONNECTION</div>
-		<div class="kal-gg-nav-drop">USER</div>
-		<div class="kal-gg-nav-drop">RESERVATION</div>
-		<div class="kal-gg-nav-drop">SEARCHING</div>
-		<div class="kal-gg-nav-drop">SALES</div>
+ 		<div class="kal-gg-nav-drop" id="kal-gg-nav-drop-con">CONNECTION</div>
+		<div class="kal-gg-nav-drop" id="kal-gg-nav-drop-user">USER</div>
+		<div class="kal-gg-nav-drop" id="kal-gg-nav-drop-res">RESERVATION</div>
+		<div class="kal-gg-nav-drop" id="kal-gg-nav-drop-searching">SEARCHING</div>
+		<div class="kal-gg-nav-drop" id="kal-gg-nav-drop-sales">SALES</div>
 </div>	
 
 
 <script>
 $(function(){
-	$("#stat").on('click',function() {
+	$("#kal-gg-nav-stat").on('click',function() {
         if($(".kal-gg-nav-drop").is(":visible")){
         $(".kal-gg-nav-drop").slideUp("fast");
         } else {
@@ -67,31 +67,32 @@ $(function(){
 
 
 	
-		/* $('#stat').on('click',function(){
+	$('#kal-gg-nav-drop-con').on('click',function(){
 			alert('stat 입장');
-			location.href="${context}/goAdmin";
-			}); */
-	$('#user').on('click',function(){
+			location.href="${context}/adminStatCon";
+			}); 
+	
+	$('#kal-gg-nav-user').on('click',function(){
 		alert('user 입장');
 		location.href="${context}/adminUser";
 		});
-	$('#res').on('click',function(){
+	$('#kal-gg-nav-res').on('click',function(){
 		alert('res 입장');
 		location.href="${context}/adminRes";
 		});
-	$('#sche').on('click',function(){
+	$('#kal-gg-nav-sche').on('click',function(){
 		alert('sche 입장');
 		location.href="${context}/adminSche";
 		});
-	$('#board').on('click',function(){
+	$('#kal-gg-nav-board').on('click',function(){
 		alert('board 입장');
 		location.href="${context}/adminBoard";
 		});
-	$('#flight').on('click',function(){
+	$('#kal-gg-nav-flight').on('click',function(){
 		alert('flight 입장');
 		location.href="${context}/adminFlight";
 		});
-	$('#route').on('click',function(){
+	$('#kal-gg-nav-route').on('click',function(){
 		alert('route 입장');
 		location.href="${context}/adminRoute";
 		});
