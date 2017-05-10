@@ -41,3 +41,10 @@
 		position:relative;
 		bottom:700px;
 	}
+	.kal-ssh-select-seat span{
+		margin-right: 150px;
+		font: bold;
+		color:navy;
+		font-style: italic;
+		background-color: orange;
+	}
