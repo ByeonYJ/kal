@@ -1,0 +1,356 @@
+@CHARSET "UTF-8";
+ 		.kal-ss-search-form{
+	  	 	text-align: center;
+	  	 	margin-top: 50px;
+	  	 	margin-right: 17px;
+	  	 }
+	  	 .kal-ss-search-label{
+	  	 		position: absolute;
+	  	 		height: 20px;
+	  	 		width: 1px;
+	  	 		overflow: hidden;
+	  	 		clip :rect(1px, 1px, 1px, 1px);
+	  	 		word-wrap:initial;
+	  	 		padding: 2px;
+	  	 }
+	  	 .kal-ss-search-text{
+	  	 	font-family: "맑은 고딕";
+	  	 	font-weight: bold;
+	  	 	font-size: 15px;
+	  	 	height: 24px;
+	  	 	padding: 2px;
+	  	 }
+	  	 .kal-ss-search-button{
+	  	 	width: 80px;
+	  	 	height: 33px;
+	  	 	font-size: 16px;
+	  	 	padding: 40px,0;
+	  	 	margin-bottom: 5px;
+	  	 	vertical-align: middle;
+	  	 	text-align: center;
+	  	 	border-color: #186686;
+	  	 	color: #186686;
+	  	 	background-color: #ffffff;
+	  	 	border-style: solid;
+	  	 }
+	  	  .kal-ss-search-button:hover{
+	  	  	outline : black;
+	  		background-color: #186686;
+	  		color: white;
+	  		
+	  	 }
+	  	 .kal-ss-search-result{
+	  	    display : block;
+	  	 	padding-left: 0;
+	  	 	margin-left: 10%;
+	  	 	font-size: 12px;
+	  	 	
+	  	 }
+	  	.kal-ss-search-result a:hover,.kal-ss-search-result a:focus{
+	  	 	outline:1px solid black;
+	  	 	outline-offset : 2px;
+	  	 }
+	  	 .kal-ss-search-result li{
+	  	  list-style: none;
+	  	  font-size: 12px;
+	  	  margin-bottom: 20px;
+	  	  margin-top: 2px;
+	  	 }
+	  	  .kal-ss-search-result a{
+	  	   display : block;
+	  	   color:  #186686;
+	  	   font-size: 14px;
+	  	   text-decoration: none ;
+	  	   width: 90%;
+	  	 }
+	  	  .kal-ss-search-result p{
+	  	   margin-top: 2px;
+	  	 }
+	  	 .kal-ss-search-count{
+	  	   margin-left: 10%;
+	  	   margin-top: 20px;
+	  	   margin-bottom: 20px;
+	  	 }
+		  .kal-faq-ss-bg{
+		    background-image : url(/web/resources/img/faq/faq_bg_image.jpg);
+		  	background-attachment: fixed;
+  	 		width: 100%;
+  	 		height: 100%;
+  	 	}
+  	 	.kal-faq-ss-title{
+  	 		position: relative;
+  	 		font-size: 60px;
+  	 		line-height: normal;
+  	 		
+  	 		color : #ffffff;
+  	 		margin-left: 155px;
+  	 		margin-bottm: 200px;
+  	 		top: 20px;
+  	 		opacity: 0.779235;
+  	 	}
+  	 	.kal-faq-ss-wrapper{
+  	 		position:relative;
+  	 		z-index: 505;
+  	 		border: 1px solid white;
+  	 		margin-left: 10%;
+  	 		margin-right: 10%;
+  	 		margin-bottom: 50px;
+  	 		margin-top:20px;
+  	 		padding-bottom:70px;
+  	 		background-color: rgba(255,255,255,0.95);
+  	 		font-family: "맑은 고딕";
+  	 		
+  	 	}
+  	 	.kal-faq-ss-h2{
+  	 		font-size : 30px;
+  	 		font-weight : bold;
+  	 		text-align: center;
+  	 		margin:20px,0,0,0;
+  	 		line-height:1.2;
+  	 		font-style: normal;
+  	 		padding-bottom: 1px;
+  	 		margin-top: 50px;
+  	 		margin-right: 20px;
+  	 	}
+  	 	.kal-faq-ss{
+  	 		margin: 0 auto 10px auto;
+  	 		width:100%;
+  	 	}
+  	 	.kal-faq-ss-select{
+  	 		float: left;
+  	 		width: 55%;
+  	 		height: 30px;
+			width: 10%;
+  	 	}
+  	 	.kal-faq-ss-select-style{
+  	 		height: 47px;
+  	 		background-image: url(/web/resources/img/faq/select-image.png);
+  	 		background-repeat:no-repeat;
+  	 		background-position: right center;
+  	 		background-color: white;
+  	 		width:170%;
+  	 		margin-right:30px;
+  	 		overflow: hidden;
+  	 		-webkit-appearance: none;
+  	 		
+  	 		
+  	 	}
+  	 	.kal-faq-ss-search{
+  	 		    border: 1px solid #ccc;
+			    font-size: 13px;
+			   	right: 20px;
+			    padding: 16px 42px 14px 15px;
+			    width: 115%;
+			    margin-left: 33px;
+			    margin-top: 0px;
+  	 	}
+  	 	.kal-faq-ss-form{
+  	 		position:relative;
+  	 		margin: 0 auto;
+  	 		width: 90%;
+  	 		
+  	 	}
+  	 	.kal-faq-ss-formstyle{
+  	 		margin-right: 90px;
+  	 	}
+  	 	.kal-faq-ss-form > div{
+  	 		display: inline-block;
+  	 	}
+  	 	.kal-faq-ss-form > div label{
+  	 		display: block;
+  	 		font-size: 14px;
+  	 		margin: 10px, 0;
+  	 		text-align: left;
+  	 	}
+  	 	.kal-faq-ss-label{
+  	 		width:35%;
+  	 		height: 17px;
+  	 		margin-bottom: 1px; 
+  	 	}
+  	 	.kal-faq-ss-holder{
+  	 		position: absolute;
+		    top: 60%;
+		    left: 130px;
+		    font-size: 13px;
+		    color: #757575;
+		    font-weight: normal;
+		    z-index: 100;
+		    line-height: 10%;
+  	 	}
+  	 		.kal-search-ss-button{
+	  	 	width: 110px;
+	  	 	height: 47px;
+	  	 	font-size: 16px;
+	  	 	padding: 40px,0;
+	  	 	margin-bottom: 3px;
+	  	 	margin-left : 130px;
+	  	 	vertical-align: middle;
+	  	 	text-align: center;
+	  	 	border-color: #186686;
+	  	 	color: #186686;
+	  	 	background-color: #ffffff;
+	  	 	border-style: solid;
+	  	 	padding-left: 10px;
+	  	 	text-align: left;
+	  	 }
+	  	 	.kal-search-ss-button-image{
+	  	 	background: url(/web/resources/img/faq/button-image.png) no-repeat;
+	  	 	width: 8px;
+	  	 	height: 13px;
+	  	 	display: inline-block;
+	  	 	float : right;
+	  	 	right: 0;
+	  	 	margin-top: 5px;
+	  	 	margin-right: 5px;
+	  	 }
+	  	 	.kal-search-ss-button:hover,.kal-search-ss-button:focus{
+	  	 	outline : black;
+	  		background-color: #186686;
+	  		color: white;
+	  	 }
+	  	 .kal-search-ss-contanier{
+	  	 	border-left: 1px solid #6b6969;
+	  	 	position: relative;
+	  	 	display: block;
+	  	 	margin-left: 28px;
+	  	 	margin-top: 20px;
+	  	 	height: 100px;
+	  	 }
+	  	 .kal-search-ss-button-submit{
+	  	 	    background-color: white;
+			    background-image: url(/web/resources/img/faq/search-image.png);
+			    background-repeat: no-repeat;
+			    background-position: center center;
+			    border: 0;
+			    bottom: 21px;
+			    font-size: 0;
+			    height: 43px;
+			    position: absolute;
+			    margin-left:130%;
+			    width: 50px;
+			    
+	  	 }
+	  	 .kal-search-ss-button-submit:hover{
+	  		border:1px solid #186686;
+	  	 }
+	  	  .kal-search-ss-button-all{
+	  		padding: 11px, 42px,10px,20px;
+	  		text-align: left;
+	  		font-size: 16px;
+	  		background-color: transparent;
+	  		border : 2px solid #186686;
+	  		color : #186686;
+	  		position: relative;
+	  		width: 100%;
+	  		height: 47px;
+	  		margin-top: 30px;
+	  	 }
+	  	 	.kal-search-ss-button-all span{
+	  	 	background: url(/web/resources/img/faq/button-image.png) no-repeat;
+	  	 	width: 8px;
+	  	 	height: 13px;
+	  	 	display: inline-block;
+	  	 	float : right;
+	  	 	right: 0;
+	  	 	margin-top: 5px;
+	  	 	margin-right: 5px;
+	  	 }
+	  	  .kal-search-ss-button-all:hover{
+	  		outline : black;
+	  		background-color: #186686;
+	  		color: white
+	  	 }
+	  	 .kal-result-ss-count{
+	  	 	color: black;
+		    font-size: 18px;
+		    margin: 40px 0 20px;
+		    padding: 0;
+		    margin-left: 20px;
+
+	  	 }
+	  	 .kal-result-ss-count li{
+		  	color: #1a7e97;
+		    display: inline-block;
+		    float: left;
+		    list-style: none;
+		    margin-left: 10px;;
+		    padding: 0;
+		    margin-top: 15px;
+		   
+	  	 }
+	  	 .kal-result-ss-before{
+	  	  	background: url(/web/resources/img/faq/button-image.png) no-repeat;
+	  	 	width: 8px;
+	  	 	height: 13px;
+	  	 	display: inline-block;
+	  	 	float : right;
+	  	 	right: 0;
+	  	 	margin-top: 5px;
+	  	 	margin-left: 10px;
+	  	 }
+	  	.kal-list-ss-ul{
+	  	 	border: 3px solid black;
+	  	 	position: relative;
+	  	 	list-style-type: none;
+	  	 	margin: 1px 20px -1px 20px;
+	  	 }
+	  	 .kal-list-ss-li{
+	  	 	border-top: 1px solid #ccc;
+	  	 	margin: 1px 20px -1px 20px;
+	  	 	position: relative;
+	  	 	z-index: 1;
+	  	 }
+	  	  .kal-list-ss-ul a{
+	  	 	    color: #1a7e97;
+			    cursor: pointer;
+			    font-size: 14px;
+			    font-weight: bold;
+			    line-height: 20px;
+			    padding: 20px 50px 20px 10px;
+			    display: block;
+	  	 }
+	  	  .kal-list-ss-plus{
+	  	 	        border-radius: 50%;
+				    height: 20px;
+				    width: 20px;
+				    line-height: 10px;
+				    padding: 5px;
+				    position: absolute;
+				    right: 0;
+				    text-align: center;
+				    top: 0;
+				    margin: 20px 10px;
+				    background: url(/web/resources/img/faq/faq-image.png) left top no-repeat;
+	  	 }
+	  	   .kal-list-ss-answer{
+	  	 		color: black;
+	  	 		display: none;
+	  	   }
+	  		.kal-list-ss-ans{
+	  	 		position: absolute;
+			    height: 1px;
+			    width: 1px;
+			    overflow: hidden;
+			    clip: rect(1px,1px,1px,1px);
+			    word-break: initial;
+			    word-wrap: initial;
+	  	 }
+	  	 .kal-faq-ss-label{
+	  	 	margin-bottom: 5px;
+	  	 }
+	  	 .kal-faq-ss-searchlabel{
+	  	 	margin-bottom: 20px;
+	  	 	margin-left: 33px;
+	  	 }
+	  	 .kal-faq-ss-bar{
+	  	 	margin-right:5px;
+	  	 }
+	  	 .kal-faq-ss-list-border{
+	  	 	border: 1px fixed block;
+	  	 	margin-top: 100px
+	  	 }
+	  	 .kal-faq-ss-spacebar{
+	  	 	margin-left: 50px;
+	  	 }
+	  	 
+	  	 

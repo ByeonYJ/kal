@@ -33,7 +33,7 @@
 					</select>
 					</div>
 				</div>
-					<div style="margin-left: 50px;">
+					<div class="kal-faq-ss-spacebar">
 					<label for="category-select" class="kal-faq-ss-label">하위분류</label>
 					<div>
 					<select name="" id="category-subselect" class="kal-faq-ss-select-style">
@@ -77,7 +77,7 @@
 			<div class="kal-faq-ss-list-border">
 			<ul class=" kal-list-ss-ul">
 				<li class="kal-list-ss-li">
-					<a href="#" id="kal-faqList-a">
+					<a href="javascript:void(0);" id="kal-faqList-a">
 					Q1. : 모닝캄 프리미엄 클럽 회원이 보너스 항공권을 구매하는 경우 성수기에도 비수기 마일리지가 적용된다는데, 가족도 동일하게 비수기 마일리지를 적용 받을 수 있나요?
 					<span class="kal-list-ss-plus"></span>
 					</a>
@@ -91,7 +91,7 @@
 					</div>
 				</li>
 				<li class="kal-list-ss-li">
-					<a href="#" id="kal-faqList-a1">
+					<a href="javascript:void(0);" id="kal-faqList-a1">
 					Q2. : 모닝캄 프리미엄 클럽 회원이 보너스 항공권을 구매하는 경우 성수기에도 비수기 마일리지가 적용된다는데, 가족도 동일하게 비수기 마일리지를 적용 받을 수 있나요?
 					<span class="kal-list-ss-plus"></span>
 					</a>
@@ -105,7 +105,7 @@
 					</div>
 				</li>
 				<li class="kal-list-ss-li">
-				<a href="#" id="kal-faqList-a2" tabindex="-1">
+				<a href="javascript:void(0);" id="kal-faqList-a2" tabindex="-1">
 					Q3. : 모닝캄 프리미엄 클럽 회원이 보너스 항공권을 구매하는 경우 성수기에도 비수기 마일리지가 적용된다는데, 가족도 동일하게 비수기 마일리지를 적용 받을 수 있나요?
 					<span class="kal-list-ss-plus"></span>
 					</a>
@@ -119,7 +119,7 @@
 					</div>
 				</li>
 				<li class="kal-list-ss-li">
-				<a href="#" id="kal-faqList-a3" tabindex="-1">
+				<a href="javascript:void(0);" id="kal-faqList-a3" tabindex="-1">
 				Q4. : 모닝캄 프리미엄 클럽 회원이 보너스 항공권을 구매하는 경우 성수기에도 비수기 마일리지가 적용된다는데, 가족도 동일하게 비수기 마일리지를 적용 받을 수 있나요?
 					<span class="kal-list-ss-plus"></span>
 					</a>
@@ -133,7 +133,7 @@
 					</div>
 				</li>
 				<li class="kal-list-ss-li">
-					<a href="#" id="kal-faqList-a4">
+					<a href="javascript:void(0);" id="kal-faqList-a4">
 					Q5. : 모닝캄 프리미엄 클럽 회원이 보너스 항공권을 구매하는 경우 성수기에도 비수기 마일리지가 적용된다는데, 가족도 동일하게 비수기 마일리지를 적용 받을 수 있나요?
 					<span class="kal-list-ss-plus"></span>
 					</a>

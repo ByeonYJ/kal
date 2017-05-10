@@ -33,7 +33,7 @@
 					</select>
 					</div>
 				</div>
-					<div style="margin-left: 50px;">
+					<div class="kal-faq-ss-spacebar">
 					<label for="category-select" class="kal-faq-ss-label">하위분류</label>
 					<div>
 					<select name="" id="category-subselect" class="kal-faq-ss-select-style">
