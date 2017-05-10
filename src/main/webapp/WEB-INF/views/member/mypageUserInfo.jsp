@@ -18,13 +18,11 @@ font-size: 30px;
 }
 
 .kal-hy-mypage-container {
-   border: 2px solid #b53939;
    width:90%;
    margin:0 auto;
    
 }
 .kal-hy-mypage-container4 {
-   border: 2px solid #9823ce;
    height: 400px;
    width: 100%;
 }

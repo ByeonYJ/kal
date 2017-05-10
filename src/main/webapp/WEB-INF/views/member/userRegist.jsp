@@ -12,7 +12,6 @@
 <style type="text/css">
 
 .kal-hy-mypage-container {
-   border: 2px solid #b53939;
    width:90%;
    margin:0 auto;
    hegith:auto;
@@ -28,7 +27,6 @@ position: relative;
 left:20px;
 }
 .kal-hy-mypage-container4 {
-   border: 2px solid #9823ce;
    height: 400px;
    width: 100%;
 }

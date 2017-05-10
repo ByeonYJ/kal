@@ -16,7 +16,6 @@ font-size: 30px;
 }
 
 .kal-hy-mypage-container {
-   border: 2px solid #b53939;
    width:90%;
    height:600px;
    margin:0 auto;
@@ -102,13 +101,11 @@ border-radius: 3px;
 
 .container2 {
    position: relative;
-   border: 2px solid #9823ce;
    height: 50px;
    width: 100%;
 }
 
 .container3 {
-   border: 2px solid #9823ce;
    margin-top: 0;
    height: 30px;
    width: 100%;
@@ -116,7 +113,6 @@ border-radius: 3px;
 }
 
 .container4 {
-   border: 2px solid #9823ce;
    height: 400px;
    width: 100%;
 }
