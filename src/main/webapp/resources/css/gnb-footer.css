@@ -1,20 +1,20 @@
  /* 헤더 부분 */
-   .header{
+   .kal-header{
       width:100%;
    }
    /* 서브 네비게이션 */
    /* before-login */
-   .before-login-sub-gnb{
+   .kal-before-login-sub-gnb{
       height:40px;
       background:#434343;
    }
-   .before-login-sub-left-menu{
+   .kal-before-login-sub-left-menu{
       width:300px;
       float:left;
       margin-top:11px;
       margin-left:10px;
    }
-   .before-login-sub-left-menu-region-select-btn{
+   .kal-before-login-sub-left-menu-region-select-btn{
       background:none;
       border:none;
       color:white;
@@ -22,83 +22,83 @@
       font-size:12px;
       cursor:pointer;
    }
-   .before-login-region-select-btn>img{
+   .kal-before-login-region-select-btn>img{
    	  padding-left:8px; 
    }
-   .before-login-sub-left-menu-text1{
+   .kal-before-login-sub-left-menu-text1{
       color:white;
       font-weight:bold;
       font-size:12px;
    }
-   .before-login-sub-left-menu-text1>img{
+   .kal-before-login-sub-left-menu-text1>img{
       padding-right:10px;
    }
-   .before-login-sub-left-menu-text2{
+   .kal-before-login-sub-left-menu-text2{
    	  color:white;
    	  font-size:12px;
    	  font-weight:bold;
    	  padding-right:5px;
    	  text-decoration:underline;
    }
-   .before-login-sub-left-menu-text3{
+   .kal-before-login-sub-left-menu-text3{
    	  color:white;
    	  font-size:12px;
    	  text-decoration:none;
    }
-   .before-login-sub-right-menu{
+   .kal-before-login-sub-right-menu{
    	  width:300px;
    	  float:right;
    	  margin-top:11px;
    	  margin-right:4px;
    }
-   .before-login-sub-right-menu-login{
+   .kal-before-login-sub-right-menu-login{
       text-decoration:none;
       font-weight:bold;
       font-size:12px;
       color:white;
    }
-   .before-login-sub-right-menu-regist{
+   .kal-before-login-sub-right-menu-regist{
       text-decoration:none;
       font-weight:bold;
       font-size:12px;
       color:white;
    }
    
-   .before-login-sub-right-menu-myregist{
+   .kal-before-login-sub-right-menu-myregist{
       text-decoration:none;
       font-weight:bold;
       font-size:12px;
       color:white;
    }
-   .before-login-sub-right-menu-wishlist{
+   .kal-before-login-sub-right-menu-wishlist{
       text-decoration:none;
       font-weight:bold;
       font-size:12px;
       color:white;
       padding-right:8px;
    }
-   .before-login-sub-right-menu-search{
+   .kal-before-login-sub-right-menu-search{
       font-size:12px;
       color:gray;
       width:80px;
    }
-   .before-login-sub-right-menu-search-icon>img{
+   .kal-before-login-sub-right-menu-search-icon>img{
       position:absolute;
       top:14px;
       right:25px;
    }
    /* after-login */
-   .after-login-sub-gnb{
+   .kal-after-login-sub-gnb{
       height:40px;
       background:#434343;
    }
-   .after-login-sub-left-menu{
+   .kal-after-login-sub-left-menu{
       width:300px;
       float:left;
       margin-top:11px;
       margin-left:10px;
    }
-   .after-login-sub-left-menu-region-select-btn{
+   .kal-after-login-sub-left-menu-region-select-btn{
       background:none;
       border:none;
       color:white;
@@ -106,89 +106,89 @@
       font-size:12px;
       cursor:pointer;
    }
-   .after-login-region-select-btn>img{
+   .kal-after-login-region-select-btn>img{
    	  padding-left:8px; 
    }
-   .after-login-sub-left-menu-text1{
+   .kal-after-login-sub-left-menu-text1{
       color:white;
       font-weight:bold;
       font-size:12px;
    }
-   .after-login-sub-left-menu-text1>img{
+   .kal-after-login-sub-left-menu-text1>img{
       padding-right:10px;
    }
-   .after-login-sub-left-menu-text2{
+   .kal-after-login-sub-left-menu-text2{
    	  color:white;
    	  font-size:12px;
    	  font-weight:bold;
    	  padding-right:5px;
    	  text-decoration:underline;
    }
-   .after-login-sub-left-menu-text3{
+   .kal-after-login-sub-left-menu-text3{
    	  color:white;
    	  font-size:12px;
    	  text-decoration:none;
    }
-   .after-login-sub-right-menu{
+   .kal-after-login-sub-right-menu{
    	  width:320px;
    	  float:right;
    	  margin-top:11px;
    	  margin-right:4px;
    }
-   .after-login-sub-right-menu-logout{
+   .kal-after-login-sub-right-menu-logout{
       text-decoration:none;
       font-weight:bold;
       font-size:12px;
       color:white;
    }
-   .after-login-sub-right-menu-mypage{
+   .kal-after-login-sub-right-menu-mypage{
       text-decoration:none;
       font-weight:bold;
       font-size:12px;
       color:white;
    }
    
-   .after-login-sub-right-menu-myregist{
+   .kal-after-login-sub-right-menu-myregist{
       text-decoration:none;
       font-weight:bold;
       font-size:12px;
       color:white;
    }
-   .after-login-sub-right-menu-wishlist{
+   .kal-after-login-sub-right-menu-wishlist{
       text-decoration:none;
       font-weight:bold;
       font-size:12px;
       color:white;
       padding-right:8px;
    }
-   .after-login-sub-right-menu-search{
+   .kal-after-login-sub-right-menu-search{
       font-size:12px;
       color:gray;
       width:80px;
    }
-   .after-login-sub-right-menu-search-icon>img{
+   .kal-after-login-sub-right-menu-search-icon>img{
       position:absolute;
       top:14px;
       right:25px;
    }
    /* 메인 네비게이션 */
-   .main-gnb{
+   .kal-main-gnb{
       height:60px;
       border-bottom:4px solid #4f8ba3;
    }
-   .main-logo{
+   .kal-main-logo{
       width:245px;
       float:left;
       padding-top:16px;
       padding-left:10px;
    }
-   .main-right-menu{
+   .kal-main-right-menu{
    	  width:690px;
    	  float:right;
    	  padding-top:10px;
    	  padding-right:10px;
    }
-   .main-right-menu-reservation-btn{
+   .kal-main-right-menu-reservation-btn{
       cursor:pointer;
       padding:0 20px 0 40px;
       height:40px;
@@ -200,7 +200,7 @@
       background-position:left;
       background-repeat:no-repeat;
    }
-   .main-right-menu-skypass-btn{
+   .kal-main-right-menu-skypass-btn{
       cursor:pointer;
       padding:0 20px 0 40px;
       height:40px;
@@ -212,7 +212,7 @@
       background-position:left;
       background-repeat:no-repeat;
    }
-   .main-right-menu-service-btn{
+   .kal-main-right-menu-service-btn{
       cursor:pointer;
       padding:0 20px 0 40px;
       height:40px;
@@ -225,7 +225,7 @@
       background-repeat:no-repeat;
       position: relative;
    }
-   .service-btn-content{
+   .kal-service-btn-content{
     text-decoration:none;
     display: none;
     position: absolute;
@@ -235,24 +235,24 @@
     padding: 12px 16px;
     z-index: 1;
 	}
-   .service-btn-content>a{
+   .kal-service-btn-content>a{
    	  color:#4f8ba3;
    	  text-decoration:none;
    	  font-size:16px;
    	  padding:10px 20px;
    }
-   .service-btn-content-faq{
+   .kal-service-btn-content-faq{
    	  display:inline-block;
       margin-bottom:3px;
    }
-   .service-btn-content-review{
+   .kal-service-btn-content-review{
    	  display:inline-block;
       margin-bottom:3px;
    }
-   .main-right-menu-service-btn:hover .service-btn-content{
+   .kal-main-right-menu-service-btn:hover .service-btn-content{
     display: block;
 	}
-   .main-right-menu-promotion-btn{
+   .kal-main-right-menu-promotion-btn{
       cursor:pointer;
       padding:0 20px 0 40px;
       height:40px;
@@ -266,202 +266,202 @@
    }
    
    /* 풋터 부분 */
-   .footer{
+   .kal-footer{
       width:100%;
       height:400px;
       background-image:url("/web/resources/img/main/footer-background.jpg");
       background-repeat:no-repeat;
       background-size:100%; 
    }
-   .footer-wrap{
+   .kal-footer-wrap{
       padding:100px 280px;
    }
-   .footer-left-content{
+   .kal-footer-left-content{
       width:900px;
       float:left;
    }
-   .footer-left-content-menu{
+   .kal-footer-left-content-menu{
       position:relative;
    }
-   .footer-left-content-menu h2{
+   .kal-footer-left-content-menu h2{
       color:white;
       font-weight:bold;
       font-size:18px;
    }
-   .footer-left-content-menu-1{
+   .kal-footer-left-content-menu-1{
       width:180px;
    }
-   .footer-left-content-menu-1>ul{
+   .kal-footer-left-content-menu-1>ul{
       margin-top:20px;
       padding:0 10px;
       border-left:1px solid white;
    }
-   .footer-left-content-menu-1-li1{
+   .kal-footer-left-content-menu-1-li1{
       padding-bottom:10px;
    }
-   .footer-left-content-menu-1-li1>a{
+   .kal-footer-left-content-menu-1-li1>a{
       color:white;
       text-decoration:none;
    }
-   .footer-left-content-menu-1-li2{
+   .kal-footer-left-content-menu-1-li2{
       padding-bottom:10px;
    }
-   .footer-left-content-menu-1-li2>a{
+   .kal-footer-left-content-menu-1-li2>a{
       color:white;
       text-decoration:none;
    }
-   .footer-left-content-menu-1-li3{
+   .kal-footer-left-content-menu-1-li3{
       padding-bottom:10px;
    }
-   .footer-left-content-menu-1-li3>a{
+   .kal-footer-left-content-menu-1-li3>a{
       color:white;
       text-decoration:none;
    }
-   .footer-left-content-menu-1-li4{
+   .kal-footer-left-content-menu-1-li4{
       padding-bottom:10px;
    }
-   .footer-left-content-menu-1-li4>a{
+   .kal-footer-left-content-menu-1-li4>a{
       color:white;
       text-decoration:none;
    }
    /* ------------------- */
-   .footer-left-content-menu-2{
+   .kal-footer-left-content-menu-2{
       position:absolute;
       top:0;
       left:250px;
       width:180px;
    }
-   .footer-left-content-menu-2{
+   .kal-footer-left-content-menu-2{
       width:180px;
    }
-   .footer-left-content-menu-2>ul{
+   .kal-footer-left-content-menu-2>ul{
       margin-top:20px;
       padding:0 10px;
       border-left:1px solid white;
    }
-   .footer-left-content-menu-2-li1{
+   .kal-footer-left-content-menu-2-li1{
       padding-bottom:10px;
    }
-   .footer-left-content-menu-2-li1>a{
+   .kal-footer-left-content-menu-2-li1>a{
       color:white;
       text-decoration:none;
    }
-   .footer-left-content-menu-2-li2{
+   .kal-footer-left-content-menu-2-li2{
       padding-bottom:10px;
    }
-   .footer-left-content-menu-2-li2>a{
+   .kal-footer-left-content-menu-2-li2>a{
       color:white;
       text-decoration:none;
    }
-   .footer-left-content-menu-2-li3{
+   .kal-footer-left-content-menu-2-li3{
       padding-bottom:10px;
    }
-   .footer-left-content-menu-2-li3>a{
+   .kal-footer-left-content-menu-2-li3>a{
       color:white;
       text-decoration:none;
    }
-   .footer-left-content-menu-2-li4{
+   .kal-footer-left-content-menu-2-li4{
       padding-bottom:10px;
    }
-   .footer-left-content-menu-2-li4>a{
+   .kal-footer-left-content-menu-2-li4>a{
       color:white;
       text-decoration:none;
    }
    /* -------------------------- */
-   .footer-left-content-menu-3{
+   .kal-footer-left-content-menu-3{
       position:absolute;
       top:0;
       left:500px;
       width:180px;
    }
-   .footer-left-content-menu-3{
+   .kal-footer-left-content-menu-3{
       width:180px;
    }
-   .footer-left-content-menu-3>ul{
+   .kal-footer-left-content-menu-3>ul{
       margin-top:20px;
       padding:0 10px;
       border-left:1px solid white;
    }
-   .footer-left-content-menu-3-li1{
+   .kal-footer-left-content-menu-3-li1{
       padding-bottom:10px;
    }
-   .footer-left-content-menu-3-li1>a{
+   .kal-footer-left-content-menu-3-li1>a{
       color:white;
       text-decoration:none;
    }
-   .footer-left-content-menu-3-li2{
+   .kal-footer-left-content-menu-3-li2{
       padding-bottom:10px;
    }
-   .footer-left-content-menu-3-li2>a{
+   .kal-footer-left-content-menu-3-li2>a{
       color:white;
       text-decoration:none;
    }
-   .footer-left-content-menu-3-li3{
+   .kal-footer-left-content-menu-3-li3{
       padding-bottom:10px;
    }
-   .footer-left-content-menu-3-li3>a{
+   .kal-footer-left-content-menu-3-li3>a{
       color:white;
       text-decoration:none;
    }
-   .footer-left-content-menu-3-li4{
+   .kal-footer-left-content-menu-3-li4{
       padding-bottom:10px;
    }
-   .footer-left-content-menu-3-li4>a{
+   .kal-footer-left-content-menu-3-li4>a{
       color:white;
       text-decoration:none;
    }
    /* -------------------------------- */
-   .footer-left-content-menu-4{
+   .kal-footer-left-content-menu-4{
       position:absolute;
       top:0;
       left:750px;
       width:180px;
    }
-   .footer-left-content-menu-4{
+   .kal-footer-left-content-menu-4{
       width:180px;
    }
-   .footer-left-content-menu-4>ul{
+   .kal-footer-left-content-menu-4>ul{
       margin-top:20px;
       padding:0 10px;
       border-left:1px solid white;
    }
-   .footer-left-content-menu-4-li1{
+   .kal-footer-left-content-menu-4-li1{
       padding-bottom:10px;
    }
-   .footer-left-content-menu-4-li1>a{
+   .kal-footer-left-content-menu-4-li1>a{
       color:white;
       text-decoration:none;
    }
-   .footer-left-content-menu-4-li2{
+   .kal-footer-left-content-menu-4-li2{
       padding-bottom:10px;
    }
-   .footer-left-content-menu-4-li2>a{
+   .kal-footer-left-content-menu-4-li2>a{
       color:white;
       text-decoration:none;
    }
-   .footer-left-content-menu-4-li3{
+   .kal-footer-left-content-menu-4-li3{
       padding-bottom:10px;
    }
-   .footer-left-content-menu-4-li3>a{
+   .kal-footer-left-content-menu-4-li3>a{
       color:white;
       text-decoration:none;
    }
-   .footer-left-content-menu-4-li4{
+   .kal-footer-left-content-menu-4-li4{
       padding-bottom:10px;
    }
-   .footer-left-content-menu-4-li4>a{
+   .kal-footer-left-content-menu-4-li4>a{
       color:white;
       text-decoration:none;
    }
    
-   .footer-right-content{
+   .kal-footer-right-content{
    	  float:right;
    	  background-image:url("/web/resources/img/main/logo-visitkorea.png");
    	  background-repeat:no-repeat;
 	  width:88px;
 	  height:59px;
    }
-   .footer-left-content-address-sns{
+   .kal-footer-left-content-address-sns{
       margin-top:50px;
       text-align:right;
    }

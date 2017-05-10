@@ -13,21 +13,21 @@
 =============== 
 */
 
-.kal-res2-jh-reser-gnb{
+.kal-res-jh-reser-gnb{
 	width:100%;
 	height:80px;
 	border-bottom:4px solid #0180a3;
 }
-.kal-res2-jh-reser-gnb-logoBlock{
+.kal-res-jh-reser-gnb-logoBlock{
 	width:250px;
 	height:80px;
 	text-align:center;
 }
-.kal-res2-jh-reser-gnb-logoBlock>img{
+.kal-res-jh-reser-gnb-logoBlock>img{
 	width:205px;
 	margin-top:25px;
 }
-.kal-res2-jh-reser-gnb-calendarIconBlock{
+.kal-res-jh-reser-gnb-calendarIconBlock{
 	width:30px;
 	height:80px;
 	position:relative;
@@ -35,38 +35,38 @@
 	left:260px;
 	text-align:center;
 }
-.kal-res2-jh-reser-gnb-calendarIconBlock>img{
+.kal-res-jh-reser-gnb-calendarIconBlock>img{
 	margin-top:30px;
 }
-.kal-res2-jh-reser-gnb-scheduleBlock{
+.kal-res-jh-reser-gnb-scheduleBlock{
 	width:450px;
 	height:80px;
 	position:relative;
 	left:320px;
 	bottom:160px;
 }
-.kal-res2-jh-reser-gnb-scheduleBlock>.placeInfo{
+.kal-res-jh-reser-gnb-scheduleBlock>.placeInfo{
 	margin:0 5px;
 	font-size:14px;
 	font-weight:bold;
 	color:black;
 }
-.kal-res2-jh-reser-gnb-placeInfo>img{
+.kal-res-jh-reser-gnb-placeInfo>img{
 	margin:0 5px;
 }
-.kal-res2-jh-reser-gnb-dateInfo{
-	margin:0 5px;
-	font-size:15px;
-	font-weight:bold;
-	color:black;
-}
-.kal-res2-jh-reser-gnb-seatInfo{
+.kal-res-jh-reser-gnb-dateInfo{
 	margin:0 5px;
 	font-size:15px;
 	font-weight:bold;
 	color:black;
 }
-.kal-res2-jh-reser-gnb-backBtn{
+.kal-res-jh-reser-gnb-seatInfo{
+	margin:0 5px;
+	font-size:15px;
+	font-weight:bold;
+	color:black;
+}
+.kal-res-jh-reser-gnb-backBtn{
 	width:90px;
 	height:80px;
 	position:relative;
@@ -79,7 +79,7 @@
 	cursor:pointer;
 	box-shadow: 1px 1px 10px #888888;
 }
-.kal-res2-jh-reser-gnb-fareSelect{
+.kal-res-jh-reser-gnb-fareSelect{
 	width:220px;
 	height:80px;
 	font-weight:bold;
@@ -90,11 +90,11 @@
 	text-align:center;
 	display:inline-block;
 }
-.kal-res2-jh-reser-gnb-fareSelect>span{
+.kal-res-jh-reser-gnb-fareSelect>span{
 	position:relative;
 	top:32px;
 }
-.kal-res2-jh-reser-gnb-passengerInfo{
+.kal-res-jh-reser-gnb-passengerInfo{
 	width:220px;
 	height:80px;
 	font-weight:bold;
@@ -105,11 +105,11 @@
 	display:inline-block;
 	text-align:center;
 }
-.kal-res2-jh-reser-gnb-passengerInfo>span{
+.kal-res-jh-reser-gnb-passengerInfo>span{
 	position:relative;
 	top:32px;
 }
-.kal-res2-jh-reser-gnb-payInfo{
+.kal-res-jh-reser-gnb-payInfo{
 	width:220px;
 	height:80px;
 	font-weight:bold;
@@ -119,11 +119,11 @@
 	left:920px;
 	text-align:center;
 }
-.kal-res2-jh-reser-gnb-payInfo>span{
+.kal-res-jh-reser-gnb-payInfo>span{
 	position:relative;
 	top:32px;
 }
-.kal-res2-jh-reser-gnb-confirm{
+.kal-res-jh-reser-gnb-confirm{
 	width:140px;
 	height:80px;
 	font-weight:bold;
@@ -133,11 +133,11 @@
 	left:1140px;
 	text-align:center;
 }
-.kal-res2-jh-reser-gnb-confirm>span{
+.kal-res-jh-reser-gnb-confirm>span{
 	position:relative;
 	top:32px;
 }
-.kal-res2-jh-reser-gnb-mainWrapper{
+.kal-res-jh-reser-gnb-mainWrapper{
 	margin-top:110px;
 	width:100%;
 }

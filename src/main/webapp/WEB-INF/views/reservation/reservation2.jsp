@@ -102,14 +102,10 @@
 	
 </body>
 <script>
-		$('.kal-res2-jh-reser-gnb-backBtn').on('click',function(){
-			alert('항공편 조회로 다시 돌아가시겠습니까 ?');
-			location.href="${context}/reservation1"
-		});
 		$('.kal-res2-jh-submit').on('click',function(){
 			alert('예매 진행하기 버튼 클릭');
 			location.href="${context}/reservation3"
 		});
-		$('.kal-res2-jh-reser-gnb-fareSelect').css('text-decoration','underline');
+		$('.kal-res-jh-reser-gnb-fareSelect').css('text-decoration','underline');
 </script>
 </html>

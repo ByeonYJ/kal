@@ -51,14 +51,10 @@
 </div>
 </div>
 <script>
-$('.kal-res2-jh-reser-gnb-backBtn').on('click',function(){
-	alert('항공편 조회로 다시 돌아가시겠습니까 ?');
-	location.href="${context}/reservation1"
-});
 $('.kal-res5-jh-submit').on('click',function(){
 	alert('메인페이지로 다시 돌아가시겠습니까 ?');
 	location.href="${context}/"
 });
-$('.kal-res2-jh-reser-gnb-confirm').css('text-decoration','underline');
+$('.kal-res-jh-reser-gnb-confirm').css('text-decoration','underline');
 </script>
 </html>
