@@ -9,15 +9,15 @@
 <body>
  <div class="main-gnb">
          <div class="main-logo">
-         	<a href="http://localhost:9000/web"><img src="${context}/resources/img/main/koreanAirLogo.png"/></a>
+         	<a id="kal-logo" href="javascript:void(0)"><img src="${context}/resources/img/main/koreanAirLogo.png"/></a>
          </div>
          <div class="main-right-menu">
          	<button class="main-right-menu-reservation-btn">항공권 예매</button>
          	<button class="main-right-menu-skypass-btn">스카이패스</button>
          	<button class="main-right-menu-service-btn">서비스 안내
          		<div class="service-btn-content">
-         			<a class="service-btn-content-faq" href="#">FAQ 게시판</a>
-         			<a class="service-btn-content-review" href="#">리뷰 게시판</a>
+         			<a class="service-btn-content-faq" href="javascript:void(0)">FAQ 게시판</a>
+         			<a class="service-btn-content-review" href="javascript:void(0)">리뷰 게시판</a>
          		</div>
          	</button>
          	<button class="main-right-menu-promotion-btn">프로모션/여행상품</button>
@@ -33,6 +33,9 @@ $('.service-btn-content-faq').on('click',function(){
 $('.service-btn-content-review').on('click',function(){
 	alert('리뷰 게시판 버튼 클릭');
 	 location.href="${context}/review";
+});
+$('#kal-logo').on('click',function(){
+	location.href="${context}/";
 });
 </script>
 </html>
