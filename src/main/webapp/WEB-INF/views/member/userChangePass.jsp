@@ -296,7 +296,7 @@ $(function(){
 	   });
 	   
 	   $('#grade').on('click',function(){
-		   alert('나의 예약');
+		   alert('평점');
 		   location.href="${context}/grade";
 	   });
 	   $('#review').on('click',function(){
