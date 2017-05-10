@@ -24,4 +24,16 @@
          </div>
       </div>
 </body>
+<script>
+$('.service-btn-content-faq').on('click',function(){
+	alert('FAQ게시판 버튼 클릭');
+	location.href="${context}/faq";
+});
+
+$('.service-btn-content-review').on('click',function(){
+	alert('리뷰 게시판 버튼 클릭');
+	 location.href="${context}/review";
+});
+</script>
 </html>
+
