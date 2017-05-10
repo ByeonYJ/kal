@@ -1,0 +1,43 @@
+	.kal-ssh-plane{
+		width:100%;
+		text-align:center;
+	}
+	.kal-ssh-plane>img{
+		
+		padding-top:20px;
+	}
+	.kal-ssh-first-seat{
+		text-align:center;
+		position:relative;
+		bottom:750px;
+	}
+	.kal-ssh-first-span{
+		display:hidden;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+	.kal-ssh-second-seat{
+		text-align:center;
+		position:relative;
+		bottom:620px;
+	}
+	
+	.kal-ssh-second-span{
+		display:hidden;
+		margin-right: 25px;
+	}
+	.kal-ssh-third-seat{
+		text-align:center;
+		position:relative;
+		bottom:550px;
+	}
+	
+	.kal-ssh-third-span{
+		display:hidden;
+		margin-right: 20px;
+	}
+	.kal-ssh-select-seat{
+		text-align:right;
+		position:relative;
+		bottom:700px;
+	}

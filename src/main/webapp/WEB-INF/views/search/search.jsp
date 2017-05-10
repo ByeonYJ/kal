@@ -7,9 +7,6 @@
 	<title>Document</title>
 	 <link rel="stylesheet" href="${context}/resources/css/reset.css">
   	 <link rel="stylesheet" href="${context}/resources/css/seoungsoo.css">
-  	 <style>
-	  	
-  	 </style>
 </head>
 <body>
 <jsp:include page="/WEB-INF/views/common/sub-gnb-before-login.jsp" flush="false"/>
