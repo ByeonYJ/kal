@@ -10,15 +10,15 @@
 	.kal-hy-review-grade-title{
 	  border: 1px solid black;
 	  display:inline-block;
-	  width: 250px;
+	  width: 315px;
 	  height: 25px;
 	  
 	}
 	.kal-hy-review-grade-content{
 	border: 1px solid black;
 	display:inline-block;
-	width: 250px;
-	height: 100px;
+	width: 315px;
+	height: 110px;
 	
 	}
 	
@@ -120,6 +120,22 @@
     font:bold 18px Helvetica, Arial, sans-serif;
     vertical-align: middle;
 }
+.kal-hy-grade-button2{
+width: 80px;
+            height: 47px;
+            font-size: 16px;
+            padding: 40px,0;
+            margin-bottom: 3px;
+            margin-left : 130px;
+            vertical-align: middle;
+            text-align: center;
+            border-color: #186686;
+            color: #186686;
+            background-color: #ffffff;
+            border-style: solid;
+            padding-left: 10px;
+            text-align: left;
+}
 </style>
 
 </head>
@@ -171,11 +187,18 @@
     <input type="radio" name="star-input" id="p10" value="10"><label for="p10">10</label>
   </span><output for="star-input"><b>0</b>점</output><input type="submit" value="평점주기"><br /><br />
 
+<span><button id="mypageUserInfo" class="kal-hy-grade-button2" >확인</button> </span>
 </span>
 </div>
 	</div>
 </body>
 <script>
+$(function(){
+	   $('#mypageUserInfo').on('click',function(){
+		   alert('뒤로가기');
+		   location.href="${context}/mypageUserInfo";
+});
+	   });
 //star rating
 var starRating = function(){
   var $star = $(".star-input"),
