@@ -168,46 +168,6 @@ box-shadow:0 1px 2px 1px rgba(0,0,0,0.2);
 border:1px solid #0180a3;
 }
 
-.kal-hy-mypage-navibar-ul{
-
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #2980a0;
-    border-radius: 3px;
-}
-
-.kal-hy-mypage-navibar-li {
-    float: left;
-}
-
-.kal-hy-mypage-navibar-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.kal-hy-mypage-navibar-li a:hover {
-	color:black;
-    background-color: #eaf0f2;
-}
-.kal-hy-mypage-subnavibar-div{
-padding: 15px;
-border: 1px solid;
-border-color:#c7cacc;
-border-radius: 3px;
-}
-.kal-hy-mypage-subnavibar-a{
-text-decoration: none;
-margin: 15px;
-}
-
-.kal-hy-mypage-subnavibar-a:active{
-color:#186686;
-}
 .kal-hy-mypage-subwrapper-title{
 font-size: 27px;
 padding:3px;
@@ -262,28 +222,8 @@ padding:8px 50px;
 	<div class="kal-hy-mypage-container-title">
 	  	 <h2>마이페이지</h2>
     </div>
-   <div>
-	         <ul class="kal-hy-mypage-navibar-ul">
-	            <li role="presentation" class="kal-hy-mypage-navibar-li a"><a href="#">나의 마일리지</a></li>
-	            <li role="presentation" class="kal-hy-mypage-navibar-li a"><a href="#">마일리지 사용</a></li>
-	            <li role="presentation" class="kal-hy-mypage-navibar-li a"><a href="#">가족마일리지 합산</a></li>
-	            <li role="presentation" class="kal-hy-mypage-navibar-li a"><a href="#">가족마일리지 합산</a></li>
-	            <li role="presentation" class="kal-hy-mypage-navibar-li a"><a href="#">위시리스트</a></li>
-	            <li role="presentation" class="kal-hy-mypage-navibar-li a"><a href="#">나의쿠폰</a></li>
-	            <li role="presentation" class="kal-hy-mypage-navibar-li a"><a href="#">회원정보</a></li>
-	            <li role="presentation" class="kal-hy-mypage-navibar-li a"><a href="#">가족마일리지 합산</a></li>
-	         </ul>
-   </div>
-   <div class="kal-hy-mypage-subnavibar-div">
-	      <a id="mypageUserInfo" class="kal-hy-mypage-subnavibar-a" href="#">▶ 회원정보 보기</a>
-	      <a id="mypageUserUpdate" class="kal-hy-mypage-subnavibar-a" href="#">▶ 회원정보 수정</a>
-	      <a id="mypageUserChangePass" class="kal-hy-mypage-subnavibar-a" href="#">▶ 비밀번호 변경</a>
-	      <a id="userReservation"  class="kal-hy-mypage-subnavibar-a" href="#">▶ 나의예약</a>
-	      <a id="userDeleteAccount"  class="kal-hy-mypage-subnavibar-a" href="#">▶ 회원탈퇴</a>
-	      <a id="grade"  class="kal-hy-mypage-subnavibar-a" href="#">▶ 평점</a>
-	      <a id="review"  class="kal-hy-mypage-subnavibar-a" href="#">▶ 리뷰</a>
-	      <a id="userRegist"  class="kal-hy-mypage-subnavibar-a" href="#">▶ 회원가입</a>
-    </div>
+   <jsp:include page="/WEB-INF/views/member/member-gnb.jsp" flush="false"/>
+	 <jsp:include page="/WEB-INF/views/member/member-navi.jsp" flush="false"/>	
 	   <div class="kal-hy-mypage-subwrapper">
 	   <p class="kal-hy-mypage-subwrapper-title">나의 예약</p><br />
 	   <span class="kal-hy-mypage-subwrapper-text"> 홈페이지에서 로그인 후 구매한 예약/항공권 및 로그인한 회원의 스카이패스 번호가 반영된 예약/항공권 목록을 보여 드립니다. </span>
