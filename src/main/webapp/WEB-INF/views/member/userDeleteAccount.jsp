@@ -7,7 +7,8 @@
 <script
    src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 <script src="https://d1p7wdleee1q2z.cloudfront.net/post/search.min.js"></script>
-<link rel="stylesheet" href="${context}/resources/css/reset.css">
+<link rel="stylesheet" href="${context}/resources/css/reset.css"/>
+<link rel="stylesheet" href="${context}/resources/css/hayun.css"/>
 <title>MY PAGE modify</title>
 <head>
 <style>
@@ -65,131 +66,6 @@ margin: 15px;
 .kal-hy-mypage-subnavibar-a:active{
 color:#186686;
 }
-.kal-hy-userInfo-txt1{
-position:relative;
-left:30px;
-margin-top: 20px;
-font-family: 맑은고딕;
-font-size: 20px;
-}
-.kal-hy-userInfo-txt2{
-font-size: 15px;
-font-family: 맑은고딕;
-font-weight: 20px;
-}
-.kal-hy-userInfo-txt3{
-position: relative;
-left:30px;
-font-family: 맑은고딕;
-font-size: 15px;
-font-weight:bold;
-}
-.kal-hy-userInfo-txt4{
-position: relative;
-left:30px; 
-font-family: 맑은고딕;
-font-size: 15px; 
-margin: 15px;
-}
-.kal-hy-userInfo-txt5{
-position: relative;
-left:620px;
-font-family: 맑은고딕;
-font-size: 15px;
-font-weight:bold;
-}
-.kal-hy-userInfo-txt6{
-position: relative;
-left:635px;
-font-family: 맑은고딕;
-font-size: 15px;
-}
-.kal-hy-userInfo-txt7{
-position:relative;
-left: 30px;
-font-family: 맑은고딕;
-font-size: 15px;
-font-weight:bold;
-}
-.kal-hy-userInfo-txt8{
-position: relative;
-left: 50px;
-font-family: 맑은고딕;
-font-size: 15px;
-}
-strong{
-font-weight: bold;
-}
-.kal-hy-mypage-user-withdraw-con{
-
-width:90%;
-margin:0 auto;
-}
-
-.kal-hy-mypage-user-withdraw1{
-margin-top:6%;
-height:auto;
-}
-
-.kal-hy-mypage-user-withdraw1 p{
-padding-top:10px;
-height:auto;
-}
-
-
-.kal-hy-mypage-user-withdraw1 h1{
-font-size: 23px;
-}
-
-.kal-hy-mypage-user-withdraw2 {
-margin-top:30px;
-height: 40px;
-}
- 
-
-.kal-hy-mypage-user-withdraw2 input{
-margin:10px 10px 0 0;
-font-size:10px;
-display:inline-block;
-font-family:맑은 고딕;
-font-size:17px;
-padding-left:10px;
-width:286px;
-height:34px;
-text-align: left;
-}
- 
-.kal-hy-mypage-user-withdraw2 input.button {
-color:#186686;
-width:300px;
-height:100%;
-border:1px solid #186686;
-background:none;
-background-image:url(/web/resources/img/member/select.png);
-background-repeat:no-repeat;
-background-position:right center;
-}
-
-.kal-hy-mypage-user-withdraw2 input.button:hover {
-
-color:white;
-height:100%;
-border:1px solid #186686;
-/* background:none; */
-background-color:#186686;
-background-image:none;
-background-repeat:no-repeat;
-background-position:right center;
-transition:0.5s;
-}
-.kal-hy-mypage-user-withdraw1-sentence{
-padding:20px 0;
-}
-.kal-hy-mypage-user-empty{
-height:200px;
-}
-
-
 </style>
 </head>
 <body>

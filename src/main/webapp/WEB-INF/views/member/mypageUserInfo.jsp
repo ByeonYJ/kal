@@ -9,132 +9,8 @@
 
 <link rel="stylesheet" href="${context}/resources/css/reset.css" />
 <title>마이페이지 회원정보-대한항공</title>
-<style>
+<link rel="stylesheet" href="${context}/resources/css/hayun.css"/>
 
-
-.kal-hy-mypage-container-title{
-margin:20px;
-font-size: 30px;
-}
-
-.kal-hy-mypage-container {
-   border: 2px solid #b53939;
-   width:90%;
-   margin:0 auto;
-   
-}
-.kal-hy-mypage-container4 {
-   border: 2px solid #9823ce;
-   height: 400px;
-   width: 100%;
-}
-
-.hr {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   border-width: 2px;
-}
-
-
-.kal-hy-mypage-navibar-ul{
-	width:100%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #2980a0;
-    border-radius: 3px;
-}
-
-
-
-.kal-hy-mypage-navibar-li {
-    float: left;
-}
-
-.kal-hy-mypage-navibar-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.kal-hy-mypage-navibar-li a:hover {
-	color:black;
-    background-color: #eaf0f2;
-}
-.kal-hy-mypage-subnavibar-div{
-padding: 15px;
-border: 1px solid;
-border-color:#c7cacc;
-border-radius: 3px;
-
-}
-.kal-hy-mypage-subnavibar-a{
-text-decoration: none;
-margin: 15px;
-}
-
-.kal-hy-mypage-subnavibar-a:active{
-color:#186686;
-}
-
-.kal-hy-userInfo-txt1{
-position:relative;
-left:30px;
-margin-top: 20px;
-font-family: 맑은고딕;
-font-size: 20px;
-}
-.kal-hy-userInfo-txt2{
-margin-left:30px;
-font-size: 15px;
-font-family: 맑은고딕;
-font-weight: 20px;
-}
-.kal-hy-userInfo-txt3{
-position: relative;
-left:30px;
-font-family: 맑은고딕;
-font-size: 15px;
-font-weight:bold;
-}
-.kal-hy-userInfo-txt4{
-position: relative;
-left:30px; 
-font-family: 맑은고딕;
-font-size: 15px; 
-margin: 15px;
-}
-.kal-hy-userInfo-txt5{
-position: relative;
-left:620px;
-font-family: 맑은고딕;
-font-size: 15px;
-font-weight:bold;
-}
-.kal-hy-userInfo-txt6{
-position: relative;
-left:635px;
-font-family: 맑은고딕;
-font-size: 15px;
-}
-.kal-hy-userInfo-txt7{
-position:relative;
-left: 30px;
-font-family: 맑은고딕;
-font-size: 15px;
-font-weight:bold;
-}
-.kal-hy-userInfo-txt8{
-position: relative;
-left: 50px;
-font-family: 맑은고딕;
-font-size: 15px;
-}
-</style>
 </head>
 <body>
 <jsp:include page="/WEB-INF/views/common/sub-gnb-before-login.jsp" flush="false"/>
@@ -179,7 +55,7 @@ font-size: 15px;
 	         	<span class="kal-hy-userInfo-txt5">주소</span>
 	            <span class="kal-hy-userInfo-txt6" >서울시 세종로 1</span>
          </div>
-         <hr id="hr" />
+         <hr class="kal-hy-hr" id="hr" />
          <span class="kal-hy-userInfo-txt7" >전화번호</span>
          <span class="kal-hy-userInfo-txt8" >010-1234-5678</span>            
       </div>
