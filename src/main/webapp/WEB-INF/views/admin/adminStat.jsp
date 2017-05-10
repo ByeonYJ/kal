@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<link rel="stylesheet" href="${context}/resources/css/kal.css" />
 <html>
 <head>
 	<title>Home</title>
