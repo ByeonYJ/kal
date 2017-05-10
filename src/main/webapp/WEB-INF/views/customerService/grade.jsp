@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8" />
 	<title>리뷰 평점</title>
-	
+	<!--test  -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	<style>
 	.kal-hy-review-grade-title{
