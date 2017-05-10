@@ -6,79 +6,25 @@
 	<meta charset="UTF-8" />
 	<title>Document</title>
 	<script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<style>
-	.plane{
-		width:100%;
-		text-align:center;
-	}
-	.plane>img{
-		
-		padding-top:20px;
-	}
-	.first_seat{
-		text-align:center;
-		position:relative;
-		bottom:750px;
-	}
-	.first_span{
-		display:hidden;
-		margin-right: 10px;
-		margin-left: 10px;
-	}
-	.second_seat{
-		text-align:center;
-		position:relative;
-		bottom:620px;
-	}
-	
-	.second_span{
-		display:hidden;
-		margin-right: 25px;
-	}
-	.third_seat{
-		text-align:center;
-		position:relative;
-		bottom:550px;
-	}
-	
-	.third_span{
-		display:hidden;
-		margin-right: 20px;
-	}
-	.select_seat{
-		text-align:right;
-		position:relative;
-		bottom:700px;
-	}
-	
-	.seat1{
-		
-	}
-	.seat2{
-		
-	}
-	.seat3{
-		
-	}
-</style>
+	<link rel="stylesheet" href="${context}/resources/css/songsanghun.css">
 </head>
 
 <body>
-	<div class="plane">
+	<div class="kal-ssh-plane">
 		<img src="${context}/resources/img/reservation/plane/plane_base.png"/>
 	</div>
-	<div id="controller_seat" class="controller_seat" >
+	<div id="controller_seat" class="kal-ssh-controller_seat" >
 	
-	<div id="first_seat" class="first_seat">
+	<div id="first_seat" class="kal-ssh-first-seat">
 		
 	</div>
-	<div id="second_seat" class="second_seat">
+	<div id="second_seat" class="kal-ssh-second-seat">
 		
 	</div>
-	<div id="third_seat" class="third_seat">
+	<div id="third_seat" class="kal-ssh-third-seat">
 	
 	</div>
-	<div id="select_seat" class="select_seat">
+	<div id="select_seat" class="kal-ssh-select-seat">
 		좌석을 선택하여 주십시요.
 	</div>
 	
@@ -114,11 +60,11 @@ var seat = (function(){
 				if(idArr[i]===""){
 					seatTable += '</br>';
 				}else if(idArr[i]==="a4"){
-					seatTable = '<span class="first_span"></span><a id="'+idArr[i]+'" href="javascript:void(0);"><img src="${context}/resources/img/reservation/plane/1seat_normal.png"/></a><span class="first_span"></span></br>'
+					seatTable = '<span class="kal-ssh-first-span"></span><a id="'+idArr[i]+'" href="javascript:void(0);"><img src="${context}/resources/img/reservation/plane/1seat_normal.png"/></a><span class="kal-ssh-first-span"></span></br>'
 					first_seat.append(seatTable);
 					$('#'+idArr[i]).addClass('seat1');
 				}else{
-					seatTable = '<span class="first_span"></span><a id="'+idArr[i]+'" href="javascript:void(0);"><img src="${context}/resources/img/reservation/plane/1seat_normal.png"/></a><span class="first_span"></span>'
+					seatTable = '<span class="kal-ssh-first-span"></span><a id="'+idArr[i]+'" href="javascript:void(0);"><img src="${context}/resources/img/reservation/plane/1seat_normal.png"/></a><span class="kal-ssh-first-span"></span>'
 					first_seat.append(seatTable);
 					$('#'+idArr[i]).addClass('seat1');
 				}
@@ -140,7 +86,7 @@ var seat = (function(){
 			for(var j=0;j<col;j++){
 				id++;
 				if(j==1||j==4){
-					seatTable = '<a id="'+temp[i]+''+ id +'" href="javascript:void(0);"><img src="${context}/resources/img/reservation/plane/2seat_normal.png"/></a><span class="second_span"></span>'
+					seatTable = '<a id="'+temp[i]+''+ id +'" href="javascript:void(0);"><img src="${context}/resources/img/reservation/plane/2seat_normal.png"/></a><span class="kal-ssh-second-span"></span>'
 					second_seat.append(seatTable);
 					$('#'+temp[i]+''+ id).addClass('seat2');
 				}else{
@@ -165,7 +111,7 @@ var seat = (function(){
 				for(var j=0;j<col;j++){
 					id++;
 					if(j==2||j==5){
-						seatTable = '<a id="'+temp[i]+''+ id +'" href="javascript:void(0);"><img src="${context}/resources/img/reservation/plane/3seat_normal.png"/></a><span class="third_span"></span>'
+						seatTable = '<a id="'+temp[i]+''+ id +'" href="javascript:void(0);"><img src="${context}/resources/img/reservation/plane/3seat_normal.png"/></a><span class="kal-ssh-third-span"></span>'
 						third_seat.append(seatTable);
 						$('#'+temp[i]+''+ id).addClass('seat3');
 					}else{
