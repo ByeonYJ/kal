@@ -55,11 +55,7 @@
 		alert('마이페이지');
 		location.href="${context}/mypageUserInfo";
 	});
-	$('.service-btn-content-faq').on('click',function(){
-		alert('FAQ게시판 버튼 클릭');
-		location.href="${context}/faq";
-	});
-	
+
 	window.setInterval(function(){
 		var next = ($('.open').index()+1)%('.imgcount').length;
 		$('.open').removeClass('open').fadeOut(1500);
