@@ -61,7 +61,6 @@
             </div>
          </div>
          <div class="footer-right-content">
-
          </div>
       </div>
    </div>

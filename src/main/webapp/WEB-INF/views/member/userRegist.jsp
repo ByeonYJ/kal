@@ -7,150 +7,14 @@
    src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 <script src="https://d1p7wdleee1q2z.cloudfront.net/post/search.min.js"></script>
 <link rel="stylesheet" href="${context}/resources/css/reset.css">
+<link rel="stylesheet" href="${context}/resources/css/member/member.css"/>
 <title>MY PAGE modify</title>
 <head>
-<style type="text/css">
-
-.kal-hy-mypage-container {
-   border: 2px solid #b53939;
-   width:90%;
-   margin:0 auto;
-   hegith:auto;
-}
-.kal-hy-mypage-container-title{
-margin:20px;
-font-size: 30px;
-}
-
-
-.kal-hy-mypage-container-postion{
-position: relative;
-left:20px;
-}
-.kal-hy-mypage-container4 {
-   border: 2px solid #9823ce;
-   height: 400px;
-   width: 100%;
-}
-
-
-.kal-hy-userInfo-txt1{
-position:relative;
-left:30px;
-margin-top: 20px;
-font-family: 맑은고딕;
-font-size: 20px;
-}
-.kal-hy-userInfo-txt2{
-font-size: 15px;
-font-family: 맑은고딕;
-font-weight: 20px;
-}
-.kal-hy-userInfo-txt3{
-position: relative;
-left:30px;
-font-family: 맑은고딕;
-font-size: 15px;
-font-weight:bold;
-}
-.kal-hy-userInfo-txt4{
-position: relative;
-left:30px; 
-font-family: 맑은고딕;
-font-size: 15px; 
-margin: 15px;
-}
-.kal-hy-userInfo-txt5{
-position: relative;
-left:620px;
-font-family: 맑은고딕;
-font-size: 15px;
-font-weight:bold;
-}
-.kal-hy-userInfo-txt6{
-position: relative;
-left:635px;
-font-family: 맑은고딕;
-font-size: 15px;
-}
-.kal-hy-userInfo-txt7{
-position:relative;
-left: 30px;
-font-family: 맑은고딕;
-font-size: 15px;
-font-weight:bold;
-}
-.kal-hy-userInfo-txt8{
-position: relative;
-left: 50px;
-font-family: 맑은고딕;
-font-size: 15px;
-}
-.kal-hy-userInfo-subTitle{
-display:inline-block;
-margin-top:10px;
-font-size: 2;
-}
-.kal-hy-userInfo-div{
-padding:10px;
-background-color: #e8e4dc
-}
-
-.kal-hy-userInfo-detail{
-padding:10px;
-position: relative;
-left:30px; 
-top: 35px;
-}
-.kal-hy-userInfo-input-text{
-
-width: 508px;
-height: 29px;
-}
-.kal-hy-userInfo-star{
-color: orange;
-}
-
-.kal-hy-userInfo-birthBox-position{
-position: relative;
-left: 0px;
-}
-.kal-hy-userInfo-birthBox{
-width: 150px; 
-height: 29px;
-}
-.kal-hy-userInfo-loginBox{
-position: relative;
-top: 100px;
-}
-.kal-hy-userInfo-loginBox-font{
-padding:10px;
-background-color: #e8e4dc;
-}
-.kal-hy-userinfo-register-btn{
-position:relative;
-left:18%;
-top:50px;
-background-color: #0180a3;
-padding:10px 20px;
-color:white;
-border:none;
-cursor:pointer;
-font-size:18px;
-border-radius: 4px;
-box-shadow:0 1px 2px 1px rgba(0,0,0,0.2);
-
-}
-
-.kal-hy-mypage-user-empty{
-height:200px;
-}
-
-</style>
 </head>
 <body>
 <jsp:include page="/WEB-INF/views/common/sub-gnb-before-login.jsp" flush="false"/>
 <jsp:include page="/WEB-INF/views/common/main-gnb.jsp" flush="false"/>	
+
 
 <div class="kal-hy-mypage-container">
 	<div class="kal-hy-mypage-container-title">
@@ -159,10 +23,9 @@ height:200px;
 		<span><font color="orange">*</font><font>영문이름은 여권상의 이름과 동일하게 입력하여 주시기 바랍니다.</font></span>
 
         <jsp:include page="/WEB-INF/views/member/member-gnb.jsp" flush="false"/>
-	 <jsp:include page="/WEB-INF/views/member/member-navi.jsp" flush="false"/>	
       <div >
          <h2 class="kal-hy-userInfo-txt1">회원정보 보기</h2><br />
-         <div style="position:relative;left: 30px; ">
+         <div class="kal-hy-mypage-regiset-space">
           <span class="kal-hy-userInfo-txt2">홍길동 </span><br />
           <span class="kal-hy-userInfo-txt2">HONG/GIL DONG</span>
          </div>
@@ -201,43 +64,4 @@ height:200px;
 
 <jsp:include page="/WEB-INF/views/common/footer.jsp" flush="false"/> 
 </body>
-<script>
-$(function(){
-	 $('#mypageUserInfo').on('click',function(){
-		   alert('회원정보');
-		   location.href="${context}/mypageUserInfo";
-	   });
-	
-	   $('#mypageUserUpdate').on('click',function(){
-		   alert('회원정보 수정 ');
-		   location.href="${context}/mypageUserUpdate";
-	   });
-	   $('#mypageUserChangePass').on('click',function(){
-		   alert('회원 비밀번호 변경 ');
-		   location.href="${context}/userChangePass";
-	   });
-	   $('#userReservation').on('click',function(){
-		   alert('나의 예약');
-		   location.href="${context}/userReservation";
-	   });
-	   
-	   $('#userDeleteAccount').on('click',function(){
-		   alert('회원 탈퇴');
-		   location.href="${context}/userDeleteAccount";
-	   });
-	   
-	   $('#grade').on('click',function(){
-		   alert('나의 예약');
-		   location.href="${context}/grade";
-	   });
-	   $('#review').on('click',function(){
-		   alert('리뷰');
-		   location.href="${context}/review";
-	   });
-	   $('#userRegist').on('click',function(){
-		   alert('회원가입');
-		   location.href="${context}/userRegist";
-	   });
-});
-</script>
 </html>
