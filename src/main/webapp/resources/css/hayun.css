@@ -1,0 +1,201 @@
+@CHARSET "UTF-8";
+/*login  */
+	.kal-hy-login-header{
+	    background-color: #434343;
+	    position: relative;
+	    z-index: 502;
+	    height: 40px;
+	    color: #ffffff;
+	    padding: 0 12px 0 33px;
+	    font-family: '맑은 고딕'; 
+	}
+	.kal-hy-login-header_menu{
+		list-style: none;
+	}
+		.kal-hy-login-header_menu li{
+		float:left;
+	}
+		.kal-hy-login-header_menu li a{
+		display: block;
+	}
+
+/* review  */
+.kal-review-main-wrapper{
+	width:100%;
+	background-image:url("/web/resources/img/customerService/review-bg.jpg");
+	background-size:cover;
+	height:720px;
+}
+.kal-review-sub-wrapper-bg{
+	background-color: rgba(51, 51, 51, 0.4);
+	background:transparent black;
+	margin:50px auto;
+	width:960px;
+	height:400px;
+	
+}
+.kal-review-sub-wrapper{
+	width:960px;
+	margin:0 auto;
+	padding-top:60px;
+}
+.kal-review-sub-wrapper-headertext{
+	font-size:28px;
+	font-weight:bold;
+	color:white;
+	width:960px;
+	margin:0 auto;
+	padding-top:60px;
+}
+.kal-review-sub-wrapper-left-box{
+	float:left;
+	margin-left:35px;
+}
+.kal-review-type-ul {
+	width:300px;
+	background-color: #f1f1f1;
+}
+.kal-review-type-li1 a{
+	display: block;
+	background-color:#0180a3;
+	text-decoration: none;
+	text-align: center;
+	color:white;
+	font-weight:bold;
+	font-size:16px;
+	padding: 16px 16px;
+}
+.kal-review-type-li2 a {
+	display: block;
+	color:black;
+	padding: 16px 16px;
+	text-decoration: none;
+	font-family: 맑은고딕;
+	text-align: center;
+	font-weight:bold;
+	font-size:16px;
+}
+.kal-review-type-li2 a:hover {
+	display: block;
+	color:white;
+	padding: 16px 16px;
+	text-decoration: none;
+	font-family: 맑은고딕;
+	text-align: center;
+	font-weight:bold;
+	font-size:16px;
+	background-color:#303030;
+}
+.kal-review-type-li3 a {
+	display: block;
+	color:black;
+	padding: 16px 16px;
+	text-decoration: none;
+	font-family: 맑은고딕;
+	text-align: center;
+	font-weight:bold;
+	font-size:16px;
+}
+.kal-review-type-li3 a:hover {
+	display: block;
+	color:white;
+	padding: 16px 16px;
+	text-decoration: none;
+	font-family: 맑은고딕;
+	text-align: center;
+	font-weight:bold;
+	font-size:16px;
+	background-color:#303030;
+}
+.kal-review-type-li4 a {
+	display: block;
+	color:black;
+	padding: 16px 16px;
+	text-decoration: none;
+	font-family: 맑은고딕;
+	text-align: center;
+	font-weight:bold;
+	font-size:16px;
+}
+.kal-review-type-li4 a:hover {
+	display: block;
+	color:white;
+	padding: 16px 16px;
+	text-decoration: none;
+	font-family: 맑은고딕;
+	text-align: center;
+	font-weight:bold;
+	font-size:16px;
+	background-color:#303030;
+}
+.kal-review-type-li5 a {
+	display: block;
+	color:black;
+	padding: 16px 16px;
+	text-decoration: none;
+	font-family: 맑은고딕;
+	text-align: center;
+	font-weight:bold;
+	font-size:16px;
+}
+.kal-review-type-li5 a:hover {
+	display: block;
+	color:white;
+	padding: 16px 16px;
+	text-decoration: none;
+	font-family: 맑은고딕;
+	text-align: center;
+	font-weight:bold;
+	font-size:16px;
+	background-color:#303030;
+}
+.kal-review-sub-wrapper-right-box-input{
+	width:550px;
+	height:240px;
+	border:none;
+	margin-left:40px;
+}
+.kal-review-star-icon{
+	width:20px;
+	position:relative;
+	right:70px;
+	top:105px;
+}
+.kal-review-pic-icon{
+	width:20px;
+	position:relative;
+	bottom:30px;
+	left:890px;
+}
+.kal-review-post-btn{
+	background-color:#0180a3;
+	width:120px;
+	color:white;
+	font-size:14px;
+	margin-top:30px;
+	margin-bottom:35px;
+	border-radius:3px;
+	cursor:pointer;
+	padding:7px 26px;
+	display:inline-block;
+	box-shadow:0 1px 2px 1px rgba(0,0,0,0.2);
+	border:1px solid #0180a3;
+	float:right;
+	margin-right:35px;
+}
+.kal-review-post-btn:hover{
+	background-color:#004656;
+	width:120px;
+	color:white;
+	font-size:14px;
+	margin-top:30px;
+	margin-bottom:35px;
+	border-radius:3px;
+	cursor:pointer;
+	padding:7px 26px;
+	display:inline-block;
+	box-shadow:0 1px 2px 1px rgba(0,0,0,0.2);
+	border:1px solid #004656;
+	float:right;
+	margin-right:35px;
+}
