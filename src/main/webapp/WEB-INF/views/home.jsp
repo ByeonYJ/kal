@@ -42,10 +42,7 @@
 <jsp:include page="/WEB-INF/views/common/footer.jsp" flush="false"/>   
 </body>
 <script>
-	$('.kal-main-right-menu-reservation-btn').on('click',function(){
-		alert('항공권 예매 버튼 클릭');
-		location.href = "${context}/reservation1";
-	});
+
 	$('.kal-admin-test').on('click',function(){
 		alert('관리자 임시 페이지 버튼 클릭');
 		location.href = "${context}/goAdmin";

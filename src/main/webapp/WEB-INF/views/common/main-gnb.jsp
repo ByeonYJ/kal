@@ -21,6 +21,10 @@
       </div>
 </body>
 <script>
+$('.kal-main-right-menu-reservation-btn').on('click',function(){
+	alert('항공권 예매 버튼 클릭');
+	location.href = "${context}/reservation1";
+});
 $('.kal-service-btn-content-faq').on('click',function(){
 	alert('FAQ게시판 버튼 클릭');
 	location.href="${context}/faq";
