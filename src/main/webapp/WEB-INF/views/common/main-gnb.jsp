@@ -1,11 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8"/>
-<link rel="stylesheet" href="${context}/resources/css/reset.css"/>
-<link rel="stylesheet" href="${context}/resources/css/gnb-footer.css" />
-</head>
+
 <body>
 <div class="kal-main-gnb">
          <div class="kal-main-logo">
@@ -35,10 +31,6 @@ $('.kal-service-btn-content-review').on('click',function(){
 	location.href="${context}/review";
 });
 
-$('#kal-logo').on('click',function(){
-	alert('메인 로고 클릭');
-	 location.href="${context}/";
-});
 $('#kal-logo').on('click',function(){
 	location.href="${context}/";
 });

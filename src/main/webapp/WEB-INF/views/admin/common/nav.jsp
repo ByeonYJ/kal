@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="${context}/resources/css/reset.css" />
 <link rel="stylesheet" href="${context}/resources/css/kal.css" />
-</style>
 
 <div class="kal-gg-body">
 <div class="kal-gg-nav">

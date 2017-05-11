@@ -3,10 +3,9 @@
 <html>
 <head>
 <meta charset="UTF-8"/>
-<link rel="stylesheet" href="${context}/resources/css/reset.css"/>
-<link rel="stylesheet" href="${context}/resources/css/gnb-footer.css" />
-<link rel="stylesheet" href="${context}/resources/css/reservation/jihoo.css" />
-<script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="${context}/resources/css/reset.css" />
+<link rel="stylesheet" href="${context}/resources/css/kal.css" />
 <script>
 function Check(x,y) {
 	   for(i=1;i<=3;i++) { // 라디오 버튼의 갯수

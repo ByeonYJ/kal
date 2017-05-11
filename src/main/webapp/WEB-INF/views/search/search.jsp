@@ -5,8 +5,9 @@
 <head>
 	<meta charset="UTF-8" />
 	<title>Document</title>
-	 <link rel="stylesheet" href="${context}/resources/css/reset.css">
-  	 <link rel="stylesheet" href="${context}/resources/css/seoungsoo.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="${context}/resources/css/reset.css" />
+<link rel="stylesheet" href="${context}/resources/css/kal.css" />
 </head>
 <body>
 <jsp:include page="/WEB-INF/views/common/sub-gnb-before-login.jsp" flush="false"/>

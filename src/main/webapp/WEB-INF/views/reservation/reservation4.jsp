@@ -4,10 +4,9 @@
 <head>
 <title>(단계 4) 현재 진행 단계</title>
 <meta charset="UTF-8"/>
-<link rel="stylesheet" href="${context}/resources/css/reset.css"/>
-<link rel="stylesheet" href="${context}/resources/css/gnb-footer.css" />
-<link rel="stylesheet" href="${context}/resources/css/reservation/jihoo.css" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="${context}/resources/css/reset.css" />
+<link rel="stylesheet" href="${context}/resources/css/kal.css" />
 </head>
 <body>
 <jsp:include page="/WEB-INF/views/common/sub-gnb-after-login.jsp" flush="false"/>

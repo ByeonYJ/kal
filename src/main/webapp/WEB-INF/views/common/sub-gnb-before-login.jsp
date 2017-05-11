@@ -3,9 +3,10 @@
 <html>
 <head>
 <meta charset="UTF-8" />
-<script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<link rel="stylesheet" href="${context}/resources/css/reset.css"/>
-<link rel="stylesheet" href="${context}/resources/css/gnb-footer.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="${context}/resources/css/reset.css" />
+<link rel="stylesheet" href="${context}/resources/css/kal.css" />
+
 </head>
 <body>
 <div class="kal-header">

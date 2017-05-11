@@ -1,21 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<style>
-.kal-hy-mypage-subnavibar-div{
-padding: 15px;
-border: 1px solid;
-border-color:#c7cacc;
-border-radius: 3px;
-
-}
-.kal-hy-mypage-subnavibar-a{
-text-decoration: none;
-margin: 15px;
-}
-
-.kal-hy-mypage-subnavibar-a:active{
-color:#186686;
-}
-</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="${context}/resources/css/reset.css" />
+<link rel="stylesheet" href="${context}/resources/css/kal.css" />
       <div class="kal-hy-mypage-subnavibar-div">
 	      <a class="kal-hy-mypage-subnavibar-a" href="#">▶ 회원정보 보기</a>
 	      <a id="mypageUserUpdate" class="kal-hy-mypage-subnavibar-a" href="#">▶ 회원정보 수정</a>
