@@ -25,7 +25,7 @@
 	
 	</div>
 	<div id="select_seat" class="kal-ssh-select-seat">
-		좌석을 선택하여 주십시요.
+		<span>좌석을 선택하여 주십시요.</span> 
 	</div>
 	
 	</div>
@@ -149,9 +149,13 @@ var select_seat = (function(){
 			}else{
 				this.children[0].setAttribute('src','${context}/resources/img/reservation/plane/1seat_normal.png');
 			}
+			var select_seat1 = $(this).attr('id').toUpperCase();
+			var controller_seat = $('#controller_seat');
+			controller_seat.css('','');
 			
-			var select_seat1 = $(this).attr('id');
-			select_seat.html('귀하께서 선택하신 좌석은'+select_seat1+'입니다.');
+			
+			
+			select_seat.html('<span>귀하께서 선택하신 좌석은 '+select_seat1+' 입니다.</span>');
 			/* $(this).children[0].attr('src',"${context}/resources/img/reservation/plane/1seat_selected.png"); */
 			}); 
 				
@@ -162,8 +166,8 @@ var select_seat = (function(){
 			}else{
 				this.children[0].setAttribute('src','${context}/resources/img/reservation/plane/2seat_normal.png');
 			}
-			var select_seat2 = $(this).attr('id');
-			select_seat.html('귀하께서 선택하신 좌석은'+select_seat2+'입니다.');
+			var select_seat2 = $(this).attr('id').toUpperCase();
+			select_seat.html('<span>귀하께서 선택하신 좌석은 '+select_seat2+' 입니다.</span>');
 			/* $(this).children[0].attr('src',"${context}/resources/img/reservation/plane/2seat_selected.png"); */
 			}); 
 		
@@ -175,8 +179,8 @@ var select_seat = (function(){
 			}else{
 				this.children[0].setAttribute('src','${context}/resources/img/reservation/plane/3seat_normal.png');
 			}
-			var select_seat3 = $(this).attr('id');
-			select_seat.html('귀하께서 선택하신 좌석은'+select_seat3+'입니다.');
+			var select_seat3 = $(this).attr('id').toUpperCase();
+			select_seat.html('<span>귀하께서 선택하신 좌석은 '+select_seat3+' 입니다.</span>');
 			/* $(this).children[0].attr('src',"${context}/resources/img/reservation/plane/3seat_selected.png"); */
 			}); 
 		}
